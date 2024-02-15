@@ -1,5 +1,46 @@
 # documentation-guide
 
+Brainstorming:
+What each pipeline will need:
+- A descriptive project name
+- a readme that includes the following:
+    - About
+    - Pipeline summary
+    - Usage instructions
+    - Parameters
+    - Output
+    - Credits section
+    - How to contribute
+    - Citations
+    - Process for reporting issues?
+- Citations document for the tools used
+- License, copyright, etc.
+- Pipeline files (should the files be in a specific place? Do we want to make certain things about the pipeline mandatory? For example, the user must be able to chose the output file paths)
+
+## ABOUT
+
+## SUMMARY  
+
+## USAGE
+
+
+## OUTPUT
+*Expected output files.*
+
+## CREDITS
+This pipeline was written by __. 
+
+We thank the following people and teams for their assistance in the development of this pipeline:  
+- __
+
+## CONTRIBUTIONS
+*Indicate whether the project is open for contributions.
+If it is, indicate how to contribute.*
+
+## CITATION
+If you use this pipeline for your analysis, please cite it using the following doi: _
+
+An extensive list of references for the tools used by this pipeline can be found in the [CITATIONS.md](CITATIONS.md) file.
 
 
 ## Getting started
