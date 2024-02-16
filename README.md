@@ -13,34 +13,23 @@ What each pipeline will need:
     - How to contribute
     - Citations
     - Process for reporting issues?
-- Citations document for the tools used
-- License, copyright, etc.
+- Citations document for the tools used (template provided)(which citation style are we using?)
+- License, copyright, etc. (Do we want to provide this/standardise it?)
 - Pipeline files (should the files be in a specific place? Do we want to make certain things about the pipeline mandatory? For example, the user must be able to chose the output file paths)
+- a conda environment? naming format env_[pipeline name].yml (we should have documentation explaining how to set up and export their environment. Conda Guide?)
+- 
+Guides to create:
+- Conda Guide (can adjust the one currently in aafc training and workshop gitlab?)
+- Repo creation guide
+- Useful links
+- Submission Guide
 
-## ABOUT
 
-## SUMMARY  
-
-## USAGE
-
-
-## OUTPUT
-*Expected output files.*
-
-## CREDITS
-This pipeline was written by __. 
-
-We thank the following people and teams for their assistance in the development of this pipeline:  
-- __
-
-## CONTRIBUTIONS
-*Indicate whether the project is open for contributions.
-If it is, indicate how to contribute.*
-
-## CITATION
-If you use this pipeline for your analysis, please cite it using the following doi: _
-
-An extensive list of references for the tools used by this pipeline can be found in the [CITATIONS.md](CITATIONS.md) file.
+What we will need to provide:
+- readme template
+- citations template
+- license?
+- file structure?
 
 
 ## Getting started
