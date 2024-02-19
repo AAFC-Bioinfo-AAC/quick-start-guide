@@ -40,6 +40,6 @@ We thank the following people and teams for their assistance in the development 
 If it is, indicate how to contribute.*
 
 ## CITATION
-If you use this pipeline for your analysis, please cite it using the following doi: _
+If you use this pipeline for your analysis, please cite it using the [CITATION.cff file](CITATION.cff)
 
 An extensive list of references for the tools used by this pipeline can be found in the [CITATIONS.md](CITATIONS.md) file.

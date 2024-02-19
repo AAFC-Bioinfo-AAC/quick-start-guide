@@ -28,9 +28,9 @@ Guides to create:
 What we will need to provide:
 - readme template
 - citations template
-- license?
-- file structure?
-- reference genomes?
+- license? suggest
+- file structure? suggest, joel will send recommentations, check bioinformatics best practices, can recommend like configs go here, etc.
+- reference genomes? make it a requirement in the documentation if necessary, file location suggestion and how to name them, best practice suggestion
 
 
 ## Getting started
