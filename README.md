@@ -30,6 +30,7 @@ What we will need to provide:
 - citations template
 - license?
 - file structure?
+- reference genomes?
 
 
 ## Getting started
