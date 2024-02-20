@@ -30,8 +30,12 @@ What we will need to provide:
 - citations template
 - license? suggest
 - file structure? suggest, joel will send recommentations, check bioinformatics best practices, can recommend like configs go here, etc.
-- reference genomes? make it a requirement in the documentation if necessary, file location suggestion and how to name them, best practice suggestion
-
+- reference genomes? make it a requirement in the documentation if necessary, file location suggestion and how to name them, best practice suggestion  
+- changelog doc  
+  
+  
+This README file will indate how to interact with the template repository to create and submit your own pipeline to the AAFC Code Catalogue?
+WE SHOULD HAVE A TEMPLATE BRANCH FOR PEOPLE TO FORK FROM? So guidelines are in main branch and template documents are in template branch (no fear of them leaving instruction comments in their actual files).
 
 ## Getting started
 
