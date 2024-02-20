@@ -7,7 +7,7 @@
 *If a diagram is used, it should follow the following legend shapes:*
 ```mermaid
     flowchart TD
-        A[input]-->B{tool}-->C([intermediate files])-->D{tool}-->E((Output))
+        A[Pipeline Input]-->B{Tool}-->C([Intermediate Files])-->D{Tool}-->E((Pipeline Output))
 ```
 
 ## USAGE
