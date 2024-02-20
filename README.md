@@ -29,13 +29,16 @@ What we will need to provide:
 - readme template
 - citations template
 - license? suggest
-- file structure? suggest, joel will send recommentations, check bioinformatics best practices, can recommend like configs go here, etc.
+- file structure? suggest, joel will send recommentations, check bioinformatics best practices, can recommend like configs go here, etc. Should description/recommendations be included here or in pipeline_creation_guide? (probably in guide)
 - reference genomes? make it a requirement in the documentation if necessary, file location suggestion and how to name them, best practice suggestion  
 - changelog doc  
   
   
-This README file will indate how to interact with the template repository to create and submit your own pipeline to the AAFC Code Catalogue?
-WE SHOULD HAVE A TEMPLATE BRANCH FOR PEOPLE TO FORK FROM? So guidelines are in main branch and template documents are in template branch (no fear of them leaving instruction comments in their actual files).
+This README file will indicate how to interact with the template repository to create and submit your own pipeline to the AAFC Code Catalogue? Or it could act as a landing page and link to the different guides and generally explain how to interact with the repo.   
+Make a template repo? This would be best, but will our users have premium accounts? So guidelines are in main repo and template documents are in template repo.
+//Do we want some sort of chat group on teams or something? Like the nf-core slack community. Could offload some of the work from the core catalogue team
+//Pipeline proposal form? 
+//main and dev branches. main requires pull request, enforcing review by core catalogue member.
 
 ## Getting started
 
