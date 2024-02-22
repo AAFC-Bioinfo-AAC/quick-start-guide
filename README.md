@@ -38,7 +38,7 @@ This README file will indicate how to interact with the template repository to c
 Make a template repo? This would be best, but will our users have premium accounts? So guidelines are in main repo and template documents are in template repo.
 //Do we want some sort of chat group on teams or something? Like the nf-core slack community. Could offload some of the work from the core catalogue team
 //Pipeline proposal form? 
-//main and dev branches. main requires pull request, enforcing review by core catalogue member.
+//main and dev branches. main requires pull request, enforcing review by core catalogue member. Will need different admin permissions and general permissions
 
 ## Getting started
 

@@ -32,37 +32,41 @@ To begin, login to your GitLab account and create a local project repository by 
 > *add something about making a local clone?*
 
 ### Work on your pipeline  
-Each project must fulfill the requirements outlined in the [pipeline guidelines](pipeline_guidelines.md).
+Each project must fulfill the requirements outlined in the [pipeline guidelines](pipeline_guidelines.md#requirements).
 
 > wait, does this make sense? what is being added to the catalogue? is it just a link of this pipeline directly or is it a new "official" copy? How can we manage versioning? Once ready to release the user would transfer ownership to the code catalogue account? (that's how nf-core does it right now. Then they can still collaborate but need approved pull requests to publish to main)
 
 - Switch to the `dev` branch of the repository. 
     > $ git checkout dev  
 
-    All development should happen on `dev` branch or be merged into the `dev` branch and kept away from `main`. 
-- [Create a conda environment](LINK) for your project and install any tools you may need.
+    All development should happen on the `dev` branch or be merged into the `dev` branch and kept away from `main`. 
+- [Create a conda environment](conda_guide.md) for your project and install any tools you may need.
 - You can begin coding your pipeline as usual using standard git development workflow in the `workflow` folder. If you already have a pipeline created, you can instead import its files directly into the `workflow` folder.  
 - Test your workflow to ensure it produces consistent and reproducible results. If you do not have your own test data, minimal datasets are available at [__](LINK).  
 - Once complete, fill out the `LICENSE`, `README.md`, `CITATIONS.md`, `CITATION.cff`, and `CHANGELOG.md` files as specified in [_](LINK).
-- [Export your conda environment](LINK) and place it in the `config` folder.
+- [Export your conda environment](conda_guide.md#exporting-a-conda-environment) and place it in the `config` folder.
 
-[REPOSITORY PATH]
-    ├── config
-    │   ├── env_[PIPELINE NAME].yml
-    |   └── ...
-    ├── workflow
-    │   ├── ...
-    │   └── ...
-    ├── LICENSE
-    ├── README.md
-    ├── CITATIONS.md
-    ├── CITATION.cff
-    ├── CHANGELOG.md
-    └── .gitignore
-
-    
+[REPOSITORY PATH]  
+    ├── config  
+    │   ├── env_[PIPELINE NAME].yml  
+    |   └── ...  
+    ├── workflow  
+    │   ├── ...  
+    │   └── ...  
+    ├── LICENSE  
+    ├── README.md  
+    ├── CITATIONS.md  
+    ├── CITATION.cff  
+    ├── CHANGELOG.md  
+    └── .gitignore  
 
 
-## Adding your Pipeline to the Code Catalogue
+## Adding your Pipeline to the Code Catalogue  
+Once you're ready to add your pipeline to the code catalogue, you will need to add a member of the AAFC code catalogue team to your pipeline repository. To do this:
+1. Go to your project page.
+2. On the left sidebar, expand `Manage` and click `Members`.
+3. Click `Invite members`.
+4. In the pop-up enter `_` as the username, select `Owner` as the role, and press `Invite`.
+
 
 ## Updating your Pipeline
