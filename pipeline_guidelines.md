@@ -3,22 +3,22 @@
 ## Introduction  
 
 ## Requirements  
-All AAFC pipelines ***must*** follow the following guidelines:  
+All Code Catalogue pipelines ***should*** follow the following guidelines:  
 - (DO WE WANT TO ENFORCE A SPECIFIC WORKFLOW MANAGER? For example, nf-core pipelines MUST use nextflow)  
-- **Pipeline Specificity**: There should only be a single pipeline for each type of data or analysis. Redundant pipelines should not be created and will not be included in this catalogue.  
+- **Pipeline Specificity**: There should only be a single pipeline for each type of data or analysis. Redundant pipelines should not be created or included in this catalogue.  
 - **Pipeline name**: Names should be descriptive of the overall function of the pipeline. Names should be lowercase, without punctuation. If multiple words are needed, seperate them with an '_'.  
-- **Use the template**: All AAFC pipelines must be built using the provided [AAFC pipeline template](LINK).  
-- **License**: Each pipeline must include a usage license on release. The code catalogue provides a version of the [MIT license](LINK) if needed.
-- **Documentation**: All necessary documentation must be included with the pipeline and hosted in the AAFC catalogue.
-- **Conda support**: Software must be packaged using [Conda](LINK) and an environment file must be included. For more info refer to the [Conda Guide](conda_guide.md).  
-- **Credits and Acknowledgements**: Pipelines must properly cite used software and acknowledge work done by others. A  [template](CITATIONS.md) has been provided.
+- **Use the template**: All AAFC pipelines should be built using the provided [AAFC pipeline template](LINK).  
+- **License**: Each pipeline should include a usage license on release. The code catalogue provides a version of the [MIT license](LINK) if needed.
+- **Documentation**: All necessary documentation should be included with the pipeline and hosted in the AAFC catalogue.
+- **Conda support**: Software should be packaged using [Conda](LINK) and an environment file should be included in the pipeline. For more info refer to the [Conda Guide](conda_guide.md).  
+- **Credits and Acknowledgements**: Pipelines mshould properly cite used software and acknowledge work done by others. A  [template](CITATIONS.md) has been provided.
 - **Citation**: Information on how to cite the pipeline should be included. A [CITATION.cff file template](CITATION.CFF) has been included and should be filled out according to the [following examples](https://docs.github.com/fr/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files#about-citation-files).  
 
 ## Pipeline Updates  
 Each contributor is responsible for the publication and maintenance of their own pipeline.  
 
-Updates must follow the following guidelines:  
-- **Semantic versioning**: Pipelines must use stable release tags.
+Updates should follow the following guidelines:  
+- **Semantic versioning**: Pipelines should use stable release tags.
 - **Use git branches**: Use `main` and `dev` branches to differentiate stable and in-progress versions of the pipeline. 
 - **Changelog**: All changes should be documented in [CHANGELOG.md](CHANGELOG.md). 
 

@@ -1,7 +1,7 @@
 # AAFC Pipeline Creation Guide
 [[_TOC_]] 
 
-
+> *Less strict alternative: catalogue can be a group. Researchers request access to the catalogue group. Everyone can view public projects within the group. Researchers can create projects within the group. Project owner and code catalogue staff can see private projects. The template is public repo within the group. New pipelines are private until ready to be shared. They are then made public/internal(depending on if we are allowed to shared it outside the government). 
 
 ## Creating a Pipeline
 ### Before Starting
