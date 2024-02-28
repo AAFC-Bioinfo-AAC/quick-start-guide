@@ -20,7 +20,7 @@ What each pipeline will need:
 - 
 Guides to create:
 - Conda Guide
-- Repo creation guide
+- Pipeline creation guide
 - Useful links
 - Guidelines
 
@@ -37,3 +37,9 @@ What we will need to provide:
   
 This README file will indicate how to interact with the template repository to create and submit your own pipeline to the AAFC Code Catalogue? Or it could act as a landing page and link to the different guides and generally explain how to interact with the repo.   
 
+Useful Links:
+- links to guides
+- actual documentation of conda, snakemake, etc
+- Linux guidelines/documentation
+- test data
+- 
