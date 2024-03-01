@@ -1,11 +1,17 @@
 ## Introduction to Apptainter (formerly Singularity)
+[[_TOC_]]
 ### What is Apptainer?
+Apptainer, formerly known as Singularity, is a containerization program specifically designed for scientific and high-performance computing. It allows users to pack the entirety of their working environment into "containers" that can be run anywhere. These containers simulate that working environment ensuring secure, reliable, and reproducable analysis. 
 ### Why use Apptainer?
+Apptainer works with your computer's host to encapsulate complex software environments. This means your jobs will be able to run in a consistent environment that is easily reproducible by others. By eliminating software compatibility issues, Apptainer containers:
+- improve the flexibility of computing resources.
+- ensure reproducible analysis.
+- extend the life of existing resources and depreceated tools.
+- facilitate collaboration between researchers. 
 ## Installation
 To create containers or run containers locally, you will need to have a local version of Apptainer installed. The apptainer software is only able to run on linux, but Windows users can install it using a [Windows Subsystem for Linux (WSL)](LINK). Other Mac and Windows installation options can be found [here](https://apptainer.org/docs/admin/main/installation.html#installation-on-windows-or-mac).  
 
-Install version 1.2.1 for use on the GPSC.
-> Insert installation steps here...
+[Install version 1.2.1](https://github.com/apptainer/apptainer/blob/release-1.2/INSTALL.md) of Apptainer from source.
 
 ## Usage
 ### Definition Files
@@ -35,7 +41,7 @@ Apptainer definition files are divided into two parts:
         > %files  
             [file path to be copied] [location to place copy]
            
-    - **%environment**: defines the container's environment variables at runtime. These variables are only available at runtime.
+    - **%environment**: defines the container's environment variables at runtime. Can be used to set up communication or file passing between the container and outside environment. These variables are only available at runtime.
         *Example:*
         > %environment  
         export PATH="$PATH:/opt"
@@ -71,8 +77,45 @@ Apptainer definition files are divided into two parts:
 ### Creating a container
 1. Make sure you have installed *Apptainer* locally and have `sudo` access on your machine. 
 2. Create a definition file for your desired container configuration. We suggest naming it [name_of_your_pipeline].def
-    > Note:  
-    If you will be using your container on the GPSC, consider using one of the [provided containers](https://portal.science.gc.ca/confluence/display/PSGRDI/gpsc7#:~:text=InteloneAPI%2D2022.1.2%2DTorunMPIprograms-,Job%20Submission,-The%20queueing%20system) as your starting point.
 3. Build the container:  
     >$ apptainer build [desired_container_name].sif [definition_file_name].def
 ### Using a container  
+There are two main ways you will be using your container, as a **shell** , as a **script** itself or to **execute** another script. Containers can also be used in conjunction with **SLURM**.
+
+#### Shell
+Using the container as a shell will allow you to work within the container from the command line as if it were your own native OS. This can be done using the `shell` command:  
+
+    $ apptainer shell [container_name].sif
+
+The following at the beginning of your terminal line will indicate that you are inside the shell:
+
+    Apptainer> 
+
+#### Script
+If a `%runscript` section was included in the definition file that the container was created from, then the container will be able to be run as a script. The `run` command will execute the commands in the runscript section.  
+
+    $ apptainer run [container_name].sif  
+
+The container can also be run directly as an executable:
+	./[container_name].sif
+
+
+#### Execute another script
+When executing any normal script, it can also be specified to run using a specific container using the `exec` command:
+    
+    apptainer exec [container_name].sif [script_to_run]  
+
+#### Batch jobs
+The same container commands can be included in SLURM job submissions by creating a regular job script:  
+
+    #!/bin/bash
+
+    #SBATCH --job-name=test_container
+    #SBATCH --output=test_container-%j.out
+    #SBATCH --ntasks=1
+    #SBATCH --cpus-per-task=1
+    #SBATCH --mem-per-cpu=5G
+    #SBATCH -p normal
+    #SBATCH --time 00:10:00
+
+    srun apptainer run [container_name].sif
