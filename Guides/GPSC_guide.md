@@ -103,6 +103,16 @@ When the job disappears from the returned list, it is finished.
 
 Additional information on using sbatch and squeue is available on the [SSC site](https://portal.science.gc.ca/confluence/display/SCIDOCS/Quick+Start+to+Using+Linux+Clusters+With+SLURM).
 
+### Array jobs 
+Job arrays allow the user to submit a collection of similar jobs at the same time, allowing them to be run more quickly. They are submitted similarly to batch jobs, so all the jobs must have the same submission options. When using the `sbatch` command to submit a job, the `--array=0-[number_of_jobs]` option should be added to indicate an array of jobs will be submitted instead of a single batch job. 
+
+You should also indicate the output and error file names using the `--output=[name]_%A_%a.out` and `--error=[name]_%A_%a.err`.  
+In these commands:
+- `%A` corresponds to the array's job ID.
+- `%a` corresponds to the job's array index value.  
+
+More indepth information can be found [here](https://slurm.schedmd.com/job_array.html).
+
 ## FAQs
 ### How do I check my group membership?
 
