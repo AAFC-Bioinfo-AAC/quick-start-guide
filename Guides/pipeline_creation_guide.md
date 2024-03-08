@@ -1,14 +1,22 @@
-# AAFC Pipeline Creation Guide
+# How To Contribute
 [[_TOC_]] 
 
+//creating a new pipeline from template
+//adding a new pipeline to the catalogue
+//updating a pipeline
 
-## Creating a Pipeline
-### Before Starting
-The AAFC Code Catalogue is __ . If you have an idea for a workflow you'd like to contribute to the Code Catalogue, message [__](LINK) to be added to the Code Catalogue group. Once added, you'll be able to create a new project repository and publish to the catalogue. To facilitate this process, we've created a set of pipeline [recommendations](pipeline_guidelines.md#suggestions), a [project template](LINK), and [useful guides](README.md#guides).    
+## Before Starting
+The AAFC Code Catalogue is [describe the role of the code catalogue] . If you have an idea for a workflow you'd like to contribute to the Code Catalogue, message [__](LINK) to be added to the Code Catalogue group. Once added, you'll be able to create a new project repository and publish to the catalogue. To facilitate this process, we've created a set of pipeline [recommendations](pipeline_guidelines.md#suggestions), a [project template](LINK), and [useful guides](README.md#guides).    
 
  Before creating a pipeline, we suggest taking a look at the pipelines that have already been created or are in development. If a pipeline that is very similar to yours already exists, consider collaborating on that pipeline instead of creating a new one. 
 
-### Copy the template
+## Creating a Pipeline
+There are two options for contributing a pipeline to the catalogue. You can either:  
+- [Use the provided template to create a new pipeline from scratch](#from-the-template).
+- [Upload a pipeline you have already created](#from-an-existing-project). 
+
+### From the Template
+#### 1. Copy the template
 >*If we can have a template repo on github, we can remove steps 9 to 11*  
 
 To begin, login to your GitLab account and create a local project repository by forking the [pipeline template](LINK):  
@@ -26,12 +34,10 @@ To begin, login to your GitLab account and create a local project repository by 
 
 A repository should be set to private until it is ready to be deployed. This is to ensure that the catalogue is not filled with copies of the empty template project if a pipeline's development takes longer than expected. Individuals who have been added to the Code Catalogue group will be able to see all project repositories, even those set to private. This will only prevent the public from having to sift through empty pipelines.  
 
-### Work on your pipeline  
+#### 2. Work on your pipeline  
 The template repository has two branches, `main` and `dev`. We suggest that all active development happens on the `dev` branch and that `main` only be used to house stable version releases of the pipeline.
-> *add something about making a local clone?*
 
 Each project must fulfill the requirements outlined in the [pipeline guidelines](pipeline_guidelines.md#suggestions).
-
 
 - Switch to the `dev` branch of the repository. 
     > $ git checkout dev  
@@ -55,7 +61,21 @@ Each project must fulfill the requirements outlined in the [pipeline guidelines]
     ├── CHANGELOG.md  
     └── .gitignore  
 
+### From an Existing Project
+#### 1. Create a new Catalogue Repository
+1. In the Code Catalogue group, click the `New Project` button in the top-right corner of the page.  
+2. If: 
+    - your project already exists in **GitLab**, select `Import Project`:
 
+    - your project exists **elsewhere**, select `Create blank project`:
+        1. Edit the ***Project name***. This will be the working name of your pipeline. The name can be changed later, so do not worry if it's not finalized.
+        2. Under ***Project URL***, select the `code_catalogue` namespace from the dropdown menu and add a `Project Slug`, which will be the end of the URL to your project. We recommend that it matches the name of your pipeline.
+        3. Select `Private` as the visibility level. 
+        4. Leave the rest as is and click `Create project`.
+        5. Upload the pipeline's existing files.
+
+A repository should be set to private until it is ready to be deployed. This is to ensure that the catalogue is not filled with copies of the empty template project if a pipeline's development takes longer than expected. Individuals who have been added to the Code Catalogue group will be able to see all project repositories, even those set to private. This will only prevent the public from having to sift through empty pipelines. 
+#### 2. Upload Pipeline Files
 ## Adding your Pipeline to the Code Catalogue  
 Once you're ready to add your pipeline to the code catalogue, you will need to update the `main` branch and make the repository public. To do this:  
 1. Change to the `main` branch:  
@@ -68,4 +88,8 @@ Once you're ready to add your pipeline to the code catalogue, you will need to u
 6. Set the `Project visibility` to `Public` from the drop-down and click on `Save changes`.  
 
 ## Updating your Pipeline  
-The same method should be used when updating your pipeline. The development of new features or changes should take place in `dev` and once complete and stable, merged into `main`. Additional suggestions for pipeline updates can be found [here](pipeline_guidelines.md#pipeline-updates).
+The same method should be used when updating your pipeline. The development of new features or changes should take place in `dev` and once complete and stable, merged into `main`. Additional suggestions for pipeline updates can be found [here](pipeline_guidelines.md#pipeline-updates).  
+
+## Contributing to Someone Else's Pipeline
+
+## Reporting Errors
