@@ -21,6 +21,8 @@ If you need to download large amounts of data you can do this on the following l
 
     inter-[dept.]-lp.science.gc.ca
 
+> Note: Space on the GPSC is limited. When downloading files or running an analysis, please make sure to not do so on your home directory, as it can only hold 10Gb of material, and make sure to move files that don't need to be on the GPSC to another location.
+
 ## Connecting to the GPSC
 There are many different ways to connect to the GPSC. This guide will explain how to connect through VS Code, which we recommend for less experienced users, but a larger list of connection methods can be found [here](https://gcxgce.sharepoint.com/teams/1000645/SitePages/GPSC-Guides.aspx?OR=Teams-HL&CT=1708971900190&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yNDAxMDQxNzUwNCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D#connecting-to-the-gpsc).  
 
@@ -112,6 +114,9 @@ In these commands:
 - `%a` corresponds to the job's array index value.  
 
 More indepth information can be found [here](https://slurm.schedmd.com/job_array.html).
+
+### GPU usage
+Jobs on the GPSC can be run using CPUs or GPUs. GPUs excel in handling parallel computations compared to CPUs. For some tools to run optimally, they should request GPU usage when submitted. To do this, when submitting a SLURM job, users can use the `--gres=gpu:[number_of_gpus]` or `--gpus-per-task=[number_of_gpus]` options along with the `gpu_a100` partition. Not all GPSC clusters have access to GPUs. If you wish to incorporate them into your workflow, please ensure you are on the `gpsc7` cluster. It is equipped with a maximum of 48 NVIDIA DGX A100s in total, 8 per compute core. More information on the gpsc7 cluster's resources can be found [here](https://portal.science.gc.ca/confluence/display/SCIDOCS/gpsc7).
 
 ## FAQs
 ### How do I check my group membership?
