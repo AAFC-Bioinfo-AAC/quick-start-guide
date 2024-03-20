@@ -118,4 +118,4 @@ The same container commands can be included in SLURM job submissions by creating
     #SBATCH -p normal
     #SBATCH --time 00:10:00
 
-    srun apptainer run [container_name].sif
+    apptainer run [container_name].sif

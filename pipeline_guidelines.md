@@ -20,7 +20,7 @@ Each contributor is responsible for the publication and maintenance of their own
 Updates should follow the following guidelines:  
 - **Semantic versioning**: Pipelines should use stable release tags.
 - **Use git branches**: Use `main` and `dev` branches to differentiate stable and in-progress versions of the pipeline. 
-- **Changelog**: All changes should be documented in [CHANGELOG.md](CHANGELOG.md). 
+
 
 
 ## Code of Conduct  

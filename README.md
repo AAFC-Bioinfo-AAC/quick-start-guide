@@ -1,45 +1,26 @@
-# documentation-guide
+## The ABCC RCBA Code Catalogue
+The ABCC RCBA Code Catalogue aims to facilitate the creation and sharing of scientific pipelines and analytic resources amongst Canadian Researchers, based on the *F.A.I.R.* principle: findable, accessible, interoperable, and reusable. 
 
-Brainstorming:
-What each pipeline will need:
-- A descriptive project name
-- a readme that includes the following:
-    - About
-    - Pipeline summary
-    - Usage instructions
-    - Parameters
-    - Output
-    - Credits section
-    - How to contribute
-    - Citations
-    - Process for reporting issues?
-- Citations document for the tools used (template provided)
-- License, copyright, etc.
-- Pipeline files
-- a conda environment? naming format env_[pipeline name].yml
-- 
-Guides to create:
-- Conda Guide
-- Pipeline creation guide
-- Useful links
-- Guidelines
+### Finding Pipelines in the ABCC
+    **TBD**
 
+### How to Contribute  
+If you would like to contribute a new pipeline or work on an existing pipeline, more info on how to do so can be found [here](how_to_contribute.md).
 
-What we will need to provide:
-- readme template
-- citations template
-- citation.cff template
-- changelog template 
-- license? suggest
-- file structure? suggest, check bioinformatics best practices, can recommend like configs go here, etc. 
-- reference genomes? file location suggestion and how to name them, best practice suggestion  
- 
-  
-This README file will indicate how to interact with the template repository to create and submit your own pipeline to the AAFC Code Catalogue? Or it could act as a landing page and link to the different guides and generally explain how to interact with the repo.   
+### Guidelines
+A set of [suggestions](pipeline_guidelines.md) have been put together to help pipeline creators follow *F.A.I.R* guidelines, making analysis tools easy to find, use, and create.
 
-Useful Links:
-- links to guides
-- actual documentation of conda, snakemake, etc
-- Linux guidelines/documentation
-- test data
-- 
+### Resource Links
+#### Catalogue Resources
+- [Template Pipeline](https://gccode.ssc-spc.gc.ca/abcc_rcba/abcc_rcba_pipeline_template)
+- [How to contribute](./Guides/how_to_contribute.md)
+- [Catalogue Guidelines](pipeline_guidelines.md)
+- [Working with the GPSC](./Guides/GPSC_guide.md)
+- [Choosing the right license](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html#toc04)
+- [Code of Conduct]()
+- [Available test data]()
+#### Software Resources
+- [How to use Conda](https://github.com/GRDI-GenARCC/tutorials-and-workshops/tree/main/Conda)
+- [How to use Apptainer/Singularity](./Guides/apptainer_guide.md)
+- [How to use Linux](https://github.com/GRDI-GenARCC/tutorials-and-workshops/tree/main/Introduction_to_Linux)
+

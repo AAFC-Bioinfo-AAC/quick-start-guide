@@ -80,7 +80,7 @@ We recommend creating two branches, `main` and `dev`, to keep track of pipeline 
 To make pipeline usage easier for users and analysis results more reproducable, we recommend the following:  
 - [Create a conda environment](conda_guide.md#create-a-new-environment) for your project and [install](conda_guide.md#manage-conda-packages) any tools that are needed to run the pipeline. Then [export your conda environment](conda_guide.md#exporting-a-conda-environment), to make sure anyone using your pipeline has the exact same tools.
 - Test your workflow to ensure it produces consistent and reproducible results. If you do not have your own test data, minimal datasets are available at [__](LINK).  
-- Once complete, we suggest including `LICENSE`, `README.md`, `CITATIONS.md`, `CITATION.cff`, and `CHANGELOG.md` files as specified in [_](LINK). It will help ensure that others use your pipeline appropriately and that proper credit is given to everyone who worked on the pipeline.
+- Once complete, we suggest including `LICENSE`, `README.md`, `CITATIONS.md`, and `CITATION.cff` files as specified in [_](LINK). It will help ensure that others use your pipeline appropriately and that proper credit is given to everyone who worked on the pipeline.
 
 
 ## Adding your Pipeline to the Code Catalogue  
