@@ -8,31 +8,26 @@
 The [General Purpose Science Cluster (GPSC)](https://portal.science.gc.ca/confluence/) is a High-Performance Computer (HPC) provided by Shared Service Canada (SSC). All code catalogue pipelines are compatible for use on the GPSC. A [complete list of computing resources](https://portal.science.gc.ca/confluence/display/SCIDOCS/Compute+Resources) can be found in the SSC guide.
 
 ## GPSC Locations
->*replace with table comparing three?*
-### 1. Interactive containers
-Interactive containers have full access to the internet and can be used to:
-- download **small to moderate** amounts of data
-- **install** software
-- set up a new **Conda** environments.
 
-### 2. Compute clusters
-Compute clusters should mainly be **used for analysis**. Jobs running on the clusters have limited access to the internet, so it’s best to first download data from an interactive container or landing pad and *then* run your analysis on a compute cluster.
 
-### 3. Landing pads
-The landing pad is used to initially connect to the GPSC, before connecting to an interactive container and should not be used for HPC workloads, but can be used to download data before running an analysis.  
+|             | **Interactive Container**          | **Compute Cluster** | **Landing Pad**   |
+| ---------------- | -------------| -------------| -------------|  
+ | **Use** |Install software and manage code| Job submissions and analysis | Downloads|
+ |**Internet access**| Full access | Limited access |Full access|
+ |**Download capabilities**|Small-Moderate amounts of data | None | Large amounts of data|
+ 
 
-If you need to download large amounts of data you can do this on the following landing pad:
+If you need to download **large amounts of data** you can do this on the following **landing pad**:
 
     inter-aafc-lp.science.gc.ca
 
-> Note: Space on the GPSC is limited. When downloading files or running an analysis, please make sure to not do so on your home directory, as it can only hold 10Gb of material, and make sure to move files that don't need to be on the GPSC to another location.
+> Note: Space on the GPSC is limited. When downloading files or running an analysis, please make sure to not do so on your home directory, as it can only hold 10Gb of material. Make sure to move files that don't need to be on the GPSC to another location.
 
 ## Connecting to the GPSC
 There are many different ways to connect to the GPSC. A list of connection methods can be found [here](https://gcxgce.sharepoint.com/teams/1000645/SitePages/GPSC-Guides.aspx?OR=Teams-HL&CT=1708971900190&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yNDAxMDQxNzUwNCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D#connecting-to-the-gpsc).  
 
 
 ## Using the GPSC
-
 ### Interactive jobs
 Interactive jobs are similar to running an analysis on your local computer and require interaction from the user. They:
 - should be used for shorter jobs or troubleshooting scripts.
@@ -74,17 +69,37 @@ In these commands:
 More indepth information can be found [here](https://slurm.schedmd.com/job_array.html).
 
 ### GPU usage
-Jobs on the GPSC can be run using CPUs or GPUs. GPUs excel in handling parallel computations compared to CPUs. For some tools to run optimally, they should request GPU usage when submitted. To do this, when submitting a SLURM job, users can use the `--gres=gpu:[number_of_gpus]` or `--gpus-per-task=[number_of_gpus]` options along with the `gpu_a100` partition. Not all GPSC clusters have access to GPUs. If you wish to incorporate them into your workflow, please ensure you use the `gpsc7` cluster. It is equipped with 48 NVIDIA DGX A100s in total, 8 per compute core. More information on the gpsc7 cluster's resources can be found [here](https://portal.science.gc.ca/confluence/display/SCIDOCS/gpsc7).
+Jobs on the GPSC can be run using CPUs or GPUs. GPUs excel in handling parallel computations compared to CPUs. For some tools to run optimally, they should request GPU usage when submitted. To do this, when submitting a SLURM job, users can use the `--gres=gpu:[number_of_gpus]` or `--gpus-per-task=[number_of_gpus]` options along with the `--partition=gpu_a100`.  
+
+Not all GPSC clusters have access to GPUs. If you wish to incorporate them into your workflow, please ensure you use the `--cluster=gpsc7`. More information on the gpsc7 cluster's resources can be found [here](https://portal.science.gc.ca/confluence/display/SCIDOCS/gpsc7).
 
 ## Common Resources available on the GPSC
     TBD
 
 ## Adapting pipelines to run on the GPSC
 ### How to adapt a bash script 
+To adapt a bash script for submission on the GPSC, fill out and add the following text to the beginning of your script *(replace [ ] with desired parameters.)*:  
+    
+    #!/bin/bash
+    #SBATCH --partition=[standard or gpu_a100]
+    #SBATCH --account=
+    #SBATCH --time=[hh:mm:ss]
+
+This is the **minimal** criteria for submitting a job. Additional options can be found [here](https://slurm.schedmd.com/pdfs/summary.pdf). 
 
 ### How to adapt snakemake script
+Snakemake is well adapted for use with the GPSC and does not require any changes to its files. To execute a snakemake job on the GPSC, call it with the following arguments *(replace [ ] with desired parameters.)*:
 
+		$ snakemake --executor slurm \
+        --default-resources \
+        slurm_account=[account name] \
+        slurm_partition=[standard or gpu_a100] \
+        runtime=[max runtime in minutes] \
+        --jobs=1
+
+These are the **minimal** requirements for submitting a job. More options can be found [here](https://snakemake.readthedocs.io/en/v7.19.1/executing/cluster.html#advanced-resource-specifications).
 ### How to adapt nextflow script
+
 
 
 
