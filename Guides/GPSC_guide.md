@@ -88,7 +88,9 @@ To adapt a bash script for submission on the GPSC, fill out and add the followin
 This is the **minimal** criteria for submitting a job. Additional options can be found [here](https://slurm.schedmd.com/pdfs/summary.pdf). 
 
 ### How to adapt snakemake script
-Snakemake is well adapted for use with the GPSC and does not require any changes to its files. To execute a snakemake job on the GPSC, call it with the following arguments *(replace [ ] with desired parameters.)*:
+Snakemake is well adapted for use with the GPSC and does not require any changes to its files. You will however need to ensure that the environment you are using has snakemake installed. This can be done using a [Conda environemt]() or a [container](apptainer_guide.md).  
+
+To execute a snakemake job on the GPSC, call it with the following arguments *(replace [ ] with desired parameters.)*:
 
 		$ snakemake --executor slurm \
         --default-resources \
@@ -99,7 +101,38 @@ Snakemake is well adapted for use with the GPSC and does not require any changes
 
 These are the **minimal** requirements for submitting a job. More options can be found [here](https://snakemake.readthedocs.io/en/v7.19.1/executing/cluster.html#advanced-resource-specifications).
 ### How to adapt nextflow script
+The easiest way to submit your nextflow job to the GSPC is through a seperate `[name]_submission.sh` file. Just as with Snakemake, you will need to ensure that Nextflow is installed prior to running your script. This can be done with a [Conda environment]() or a [container](apptainer_guide.md). 
 
+
+Create a `[name].sh` file, and add the following:
+#### *1. If you are using Conda:*
+
+    #!/bin/bash
+    #SBATCH --job-name=nextflow-test
+    #SBATCH --partition=[standard or gpu_a100]
+    #SBATCH --account=
+    #SBATCH --time=[hh:mm:ss]
+
+    source ~/miniconda3/etc/profile.d/conda.sh
+    conda activate [environment_name]
+    cd ~
+    nextflow run [nextflow_file].nf
+
+#### *2. If you are using a container:*
+
+    #!/bin/bash
+    #SBATCH --job-name=nextflow-test
+    #SBATCH --partition=[standard or gpu_a100]
+    #SBATCH --account=
+    #SBATCH --time=[hh:mm:ss]
+
+    apptainer exec [container_name].sif nextflow run [nextflow_file].nf
+
+These `#SBATCH options` are the **minimal** criteria for submitting a job. Additional options can be found [here](https://slurm.schedmd.com/pdfs/summary.pdf). 
+
+Once the script is created, submit it to the GPSC using the `sbatch` command.
+
+>ADD Conda stuff somewhere?
 
 
 
