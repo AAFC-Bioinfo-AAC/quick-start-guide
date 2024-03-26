@@ -88,7 +88,7 @@ To adapt a bash script for submission on the GPSC, fill out and add the followin
 This is the **minimal** criteria for submitting a job. Additional options can be found [here](https://slurm.schedmd.com/pdfs/summary.pdf). 
 
 ### How to adapt snakemake script
-Snakemake is well adapted for use with the GPSC and does not require any changes to its files. You will however need to ensure that the environment you are using has snakemake installed. This can be done using a [Conda environemt]() or a [container](apptainer_guide.md).  
+Snakemake is well adapted for use with the GPSC and does not require any changes to its files. You will however need to ensure that the environment you are using has snakemake installed. This can be done using a [Conda environemt](https://gcxgce.sharepoint.com/teams/1000645/SitePages/Conda-Tutorial.aspx) or a [container](apptainer_guide.md). Before continuing, either activate your conda environment or load your container.  
 
 To execute a snakemake job on the GPSC, call it with the following arguments *(replace [ ] with desired parameters.)*:
 
@@ -101,7 +101,7 @@ To execute a snakemake job on the GPSC, call it with the following arguments *(r
 
 These are the **minimal** requirements for submitting a job. More options can be found [here](https://snakemake.readthedocs.io/en/v7.19.1/executing/cluster.html#advanced-resource-specifications).
 ### How to adapt nextflow script
-The easiest way to submit your nextflow job to the GSPC is through a seperate `[name]_submission.sh` file. Just as with Snakemake, you will need to ensure that Nextflow is installed prior to running your script. This can be done with a [Conda environment]() or a [container](apptainer_guide.md). 
+The easiest way to submit your nextflow job to the GSPC is through a seperate `[name]_submission.sh` file. Just as with Snakemake, you will need to ensure that Nextflow is installed prior to running your script. This can be done with a [Conda environment](https://gcxgce.sharepoint.com/teams/1000645/SitePages/Conda-Tutorial.aspx) or a [container](apptainer_guide.md). 
 
 
 Create a `[name].sh` file, and add the following:
@@ -132,7 +132,7 @@ These `#SBATCH options` are the **minimal** criteria for submitting a job. Addit
 
 Once the script is created, submit it to the GPSC using the `sbatch` command.
 
->ADD Conda stuff somewhere?
+
 
 
 
