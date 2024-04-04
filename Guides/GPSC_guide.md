@@ -99,7 +99,8 @@ To execute a snakemake job on the GPSC, call it with the following arguments *(r
         runtime=[max runtime in minutes] \
         --jobs=1
 
-These are the **minimal** requirements for submitting a job. More options can be found [here](https://snakemake.readthedocs.io/en/v7.19.1/executing/cluster.html#advanced-resource-specifications).
+These are the **minimal** requirements for submitting a job. More options can be found [here](https://snakemake.readthedocs.io/en/v7.19.1/executing/cluster.html#advanced-resource-specifications).  
+
 ### How to adapt nextflow script
 The easiest way to submit your nextflow job to the GSPC is through a seperate `[name]_submission.sh` file. Just as with Snakemake, you will need to ensure that Nextflow is installed prior to running your script. This can be done with a [Conda environment](https://gcxgce.sharepoint.com/teams/1000645/SitePages/Conda-Tutorial.aspx) or a [container](apptainer_guide.md). 
 
