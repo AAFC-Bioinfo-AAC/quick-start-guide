@@ -53,7 +53,6 @@ Each project should fulfill the requirements outlined in the [pipeline guideline
             ├── README.md  
             ├── CITATIONS.md  
             ├── CITATION.cff  
-            ├── CHANGELOG.md  
             └── .gitignore  
 
 ### From an Existing Project
