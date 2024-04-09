@@ -24,7 +24,7 @@ BRSN: <a href="mailto:aafc.bioinfosupport.aac@agr.gc.ca?subject=AAFC Bioinformat
 
 - [Catalogue Guidelines](pipeline_guidelines.md) 
 
-- [Working with the GPSC](./Guides/GPSC_guide.md) 
+- [Working with the GPSC](https://gcxgce.sharepoint.com/teams/1000645/SitePages/Documentation.aspx?&OR=Teams-HL&CT=1712689183892&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNDAyMjkyNDUxNyIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D) 
 
 - [Choosing the right license](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html#toc04) 
 

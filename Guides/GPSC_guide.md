@@ -1,6 +1,6 @@
 # Working with the GPSC
 > Note:
-    A general GPSC guide can be found [here](https://gcxgce.sharepoint.com/teams/1000645/SitePages/GPSC-Guides.aspx?OR=Teams-HL&CT=1708971900190&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yNDAxMDQxNzUwNCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D).  
+    A general GPSC guide can be found [here](https://gcxgce.sharepoint.com/teams/1000645/SitePages/Documentation.aspx?&OR=Teams-HL&CT=1712689183892&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNDAyMjkyNDUxNyIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D).  
 
 [[_TOC_]]
 
