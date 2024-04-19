@@ -9,7 +9,7 @@ Apptainer works with your computer's host to encapsulate complex software enviro
 - extend the life of existing resources and depreceated tools.
 - facilitate collaboration between researchers. 
 ## Installation
-To create containers or run containers locally, you will need to have a local version of Apptainer installed. The apptainer software is only able to run on linux, but Windows users can install it using a [Windows Subsystem for Linux (WSL)](LINK). Other Mac and Windows installation options can be found [here](https://apptainer.org/docs/admin/main/installation.html#installation-on-windows-or-mac).  
+To create containers or run containers locally, you will need to have a local version of Apptainer installed. The apptainer software is only able to run on linux, but Windows users can install it using a [Windows Subsystem for Linux (WSL)](https://ubuntu.com/desktop/wsl). Other Mac and Windows installation options can be found [here](https://apptainer.org/docs/admin/main/installation.html#installation-on-windows-or-mac).  
 
 [Install version 1.2.1](https://github.com/apptainer/apptainer/blob/release-1.2/INSTALL.md) of Apptainer from source.
 
@@ -120,4 +120,6 @@ The same container commands can be included in SLURM job submissions by creating
 
     apptainer run [container_name].sif
 
-## Example 
+## Example  
+
+*TBD*

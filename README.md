@@ -28,7 +28,7 @@ BRSN: <a href="mailto:aafc.bioinfosupport.aac@agr.gc.ca?subject=AAFC Bioinformat
 
 - [Choosing the right license](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html#toc04) 
 
-- [Code of Conduct]() 
+- [Code of Conduct](CODE_OF_CONDUCT.md) 
 
 - [Available test data]() 
 
