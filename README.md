@@ -22,7 +22,7 @@ BRSN: <a href="mailto:aafc.bioinfosupport.aac@agr.gc.ca?subject=AAFC Bioinformat
 
 - [How to contribute](./Guides/how_to_contribute.md) 
 
-- [Catalogue Guidelines](pipeline_guidelines.md) 
+- [Catalogue Guidelines](abcc_guidelines.md) 
 
 - [Working with the GPSC](https://gcxgce.sharepoint.com/teams/1000645/SitePages/Documentation.aspx?&OR=Teams-HL&CT=1712689183892&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNDAyMjkyNDUxNyIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D) 
 
