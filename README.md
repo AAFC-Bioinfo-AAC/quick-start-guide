@@ -41,3 +41,5 @@ BRSN: <a href="mailto:aafc.bioinfosupport.aac@agr.gc.ca?subject=AAFC Bioinformat
 - [How to use Apptainer/Singularity](./Guides/apptainer_guide.md) 
 
 - [How to use Linux](https://github.com/GRDI-GenARCC/tutorials-and-workshops/tree/main/Introduction_to_Linux) 
+
+- [How to move a GitLab repository to Github](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/importing-an-external-git-repository-using-the-command-line)
