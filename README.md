@@ -1,45 +1,95 @@
-## The AAFC Bioinformatics Code Catalogue
-The AAFC Bioinformatics Code Catalogue (ABCC) aims to facilitate the creation and sharing of bioinformatics pipelines and resources by AAFC researchers, following *F.A.I.R.* principles: Findable, Accessible, Interoperable, and Reusable. 
+# Quick Start Guide for Contributing Bioinformatics Code & Pipelines
 
-## How to use
-    **TBD**
+Welcome! We encourage AAFC scientists, bioinformaticians, analysts, and developers to contribute bioinformatics code and reproducible pipelines to our growing open-source ecosystem. Here's how to get started:
 
-## How to Contribute  
-Refer [here](how_to_contribute.md) for information on how to contribute a new pipeline to the catalogue or work on an existing pipeline already in the catalogue. [Guidelines](aabc_guidelines.md) have been developed to standardize contributed pipelines and to keep to FAIR principles, thereby ensuring proper use and reuse of pipelines.  
- 
+---
 
-## How to contact 
+## Requesting a New GitHub Repository
 
-ABCC Contributors: 
- 
-BRSN: <a href="mailto:aafc.bioinfosupport.aac@agr.gc.ca?subject=AAFC Bioinformatics Code Catalogue Inquiry">aafc.bioinfosupport.aac@agr.gc.ca</a> 
+To create a **new repository** under the AAFC GitHub organization:
 
-## Resources 
+1. Submit a ticket via the MyITCentreTI application under category: 
+   
+   `Science IT Support > Science Code Catalogue > Repository Management > Creating private repositories`
 
-### Catalogue Resources 
+   Include the following details in the ticket:
+   - GitHub handle of the admin on this repository
+   - Email ID of the admin's supervisor 
+   - Proposed repository name and a 1-2 line bilingual (EN/FR) description
+  
+2. The new repository will be created using the [template repository](link) that includes:
+   - A default `README.md` template
+   - A default License (MIT) and Crown copyright
+   - Other files (CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md, etc)
 
-- [Template Pipeline](https://gccode.ssc-spc.gc.ca/abcc_rcba/abcc_rcba_pipeline_template) 
+3. The admin is responsible for maintaining the repo and may add team members and assign privileges (read/write). The admin may also request adding/removing users or modifying user privileges via a MyITCentreTI ticket in the appropriate category under: 
+   
+   `Science IT Support > Science Code Catalogue > Account Management`
+   
+4. The README template may be customised as needed — just ensure the repo remains **reproducible**, with clear metadata, documentation, and usage instructions.
+   
 
-- [How to contribute](./Guides/how_to_contribute.md) 
 
-- [Catalogue Guidelines](abcc_guidelines.md) 
+---
 
-- [Working with the GPSC](https://gcxgce.sharepoint.com/teams/1000645/SitePages/Documentation.aspx?&OR=Teams-HL&CT=1712689183892&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNDAyMjkyNDUxNyIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D) 
+## Publishing a Repository
 
-- [Choosing the right license](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html#toc04) 
+When your code is ready for public release:
 
-- [Code of Conduct](CODE_OF_CONDUCT.md) 
+1. Submit a ticket via the MyITCentreTI application under category: 
+   
+   `Science IT Support > Science Code Catalogue > Repository Management > Reviewing repositories for approval before publication`
 
-- [Available test data]() 
+   Please ensure that:
+   - all steps in the `Approval process for open source code` have been followed and the
+   - the associated form and its check list are attached (links provided via the ticket)
+   - the appropriate License is included in the repository (consult with your local OIPC officer if in doubt). 
 
-#### Software Resources 
+---
 
-- [How to use Git](https://docs.github.com/en/get-started/using-git) 
+## Migrating an Existing Repository
 
-- [How to use Conda](https://github.com/GRDI-GenARCC/tutorials-and-workshops/tree/main/Conda) 
+Already have a GitHub repo in a personal or external account?
 
-- [How to use Apptainer/Singularity](./Guides/apptainer_guide.md) 
+1. Backup or clone your repo locally.
+2. Request a new repository via the process above.
+3. Push your local copy into the new repo.
 
-- [How to use Linux](https://github.com/GRDI-GenARCC/tutorials-and-workshops/tree/main/Introduction_to_Linux) 
+---
 
-- [How to move a GitLab repository to Github](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/importing-an-external-git-repository-using-the-command-line)
+## Managing Repository Access
+
+The admin of the repo can add **team members** with specific permissions (e.g., read, write).
+**Only AAFC GitHub Organization Owners** can **Create** or **delete** repositories and change organization-wide settings.
+
+If you need a repo deleted/archived/deprecated, please submit a ticket via the MyITCentreTI application in the appropriate category under: 
+   
+   `Science IT Support > Science Code Catalogue > Repository Management`
+
+---
+
+## Contributing to Existing Repositories
+
+### Public Repositories
+- Open an **issue** to suggest changes, report bugs, or start discussions.
+- Fork the repo, submit **pull requests**, and follow the `CONTRIBUTING.md` guidelines.
+
+### Private Repositories
+- Refer to the [internal SharePoint list of private repositories](https://001gc.sharepoint.com/sites/42732/asd1/Forms/AllItems.aspx?id=%2Fsites%2F42732%2Fasd1%2FABCC%2FList%20of%20private%20repos%2Epdf&parent=%2Fsites%2F42732%2Fasd1%2FABCC) for repositories of interest.
+- Contact the listed owner or maintainer to request access or propose contributions.
+
+---
+
+## Code of Conduct
+
+All contributors must follow the [Values and Ethics Code for the Public Sector](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=25049). Be respectful, inclusive, and constructive in all interactions.
+
+---
+
+## Need Help?
+
+Email **aafc.bioinfosupport.aac@agr.gc.ca**​, with subject ABCC and include as much detail as possible to help us assist you efficiently.
+
+Security vulnerabilities must be reported by email to **aafc.bice-ceib.aac@agr.gc.ca**. Do not post any security issues on the public repository! 
+
+
