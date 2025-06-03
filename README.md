@@ -1,3 +1,17 @@
+[Quick Start Guide for Contributing Bioinformatics Code \& Pipelines](#quick-start-guide-for-contributing-bioinformatics-code--pipelines)
+- [Quick Start Guide for Contributing Bioinformatics Code \& Pipelines](#quick-start-guide-for-contributing-bioinformatics-code--pipelines)
+  - [Requesting a New GitHub Repository](#requesting-a-new-github-repository)
+  - [Publishing a Repository](#publishing-a-repository)
+  - [Migrating an Existing Repository](#migrating-an-existing-repository)
+  - [Managing Repository Access](#managing-repository-access)
+  - [Contributing to Existing Repositories](#contributing-to-existing-repositories)
+    - [Public Repositories](#public-repositories)
+    - [Private Repositories](#private-repositories)
+  - [Code of Conduct](#code-of-conduct)
+  - [Need Help?](#need-help)
+
+---
+
 # Quick Start Guide for Contributing Bioinformatics Code & Pipelines
 
 Welcome! We encourage AAFC scientists, bioinformaticians, analysts, and developers to contribute bioinformatics code and reproducible pipelines to our growing open-source ecosystem. Here's how to get started:
@@ -17,7 +31,7 @@ To create a **new repository** under the AAFC GitHub organization:
    - Email ID of the admin's supervisor 
    - Proposed repository name and a 1-2 line bilingual (EN/FR) description
   
-2. The new repository will be created using the [template repository](link) that includes:
+2. The new repository will be created using the [template repository](https://github.com/AAFC-Bioinfo-AAC/template-repository) that includes:
    - A default `README.md` template
    - A default License (MIT) and Crown copyright
    - Other files (CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md, etc)
