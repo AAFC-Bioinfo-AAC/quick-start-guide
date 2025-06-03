@@ -1,4 +1,5 @@
-[Quick Start Guide for Contributing Bioinformatics Code \& Pipelines](#quick-start-guide-for-contributing-bioinformatics-code--pipelines)
+# Quick Start Guide for Contributing Bioinformatics Code & Pipelines
+
 - [Quick Start Guide for Contributing Bioinformatics Code \& Pipelines](#quick-start-guide-for-contributing-bioinformatics-code--pipelines)
   - [Requesting a New GitHub Repository](#requesting-a-new-github-repository)
   - [Publishing a Repository](#publishing-a-repository)
@@ -11,8 +12,6 @@
   - [Need Help?](#need-help)
 
 ---
-
-# Quick Start Guide for Contributing Bioinformatics Code & Pipelines
 
 Welcome! We encourage AAFC scientists, bioinformaticians, analysts, and developers to contribute bioinformatics code and reproducible pipelines to our growing open-source ecosystem. Here's how to get started:
 
