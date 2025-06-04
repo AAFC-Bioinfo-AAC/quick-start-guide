@@ -1,19 +1,23 @@
+<!-- omit in toc -->
 # Quick Start Guide for Contributing Bioinformatics Code & Pipelines
-
-- [Quick Start Guide for Contributing Bioinformatics Code \& Pipelines](#quick-start-guide-for-contributing-bioinformatics-code--pipelines)
-  - [Requesting a New GitHub Repository](#requesting-a-new-github-repository)
-  - [Publishing a Repository](#publishing-a-repository)
-  - [Migrating an Existing Repository](#migrating-an-existing-repository)
-  - [Managing Repository Access](#managing-repository-access)
-  - [Contributing to Existing Repositories](#contributing-to-existing-repositories)
-    - [Public Repositories](#public-repositories)
-    - [Private Repositories](#private-repositories)
-  - [Code of Conduct](#code-of-conduct)
-  - [Need Help?](#need-help)
+<!-- omit in toc -->
+## Table of Contents
+- [Getting Started](#getting-started)
+- [Requesting a New GitHub Repository](#requesting-a-new-github-repository)
+- [Publishing a Repository](#publishing-a-repository)
+- [Migrating an Existing Repository](#migrating-an-existing-repository)
+- [Managing Repository Access](#managing-repository-access)
+- [Contributing to Existing Repositories](#contributing-to-existing-repositories)
+  - [Public Repositories](#public-repositories)
+  - [Private Repositories](#private-repositories)
+- [Code of Conduct](#code-of-conduct)
+- [Need Help?](#need-help)
 
 ---
 
-Welcome! We encourage AAFC scientists, bioinformaticians, analysts, and developers to contribute bioinformatics code and reproducible pipelines to our growing open-source ecosystem. Here's how to get started:
+## Getting Started
+
+Welcome! We encourage AAFC scientists, bioinformaticians, analysts, and developers to contribute bioinformatics code and reproducible pipelines to our open-source ecosystem. This guide will help you get started with repository creation, contribution, and publication.
 
 ---
 
@@ -21,88 +25,99 @@ Welcome! We encourage AAFC scientists, bioinformaticians, analysts, and develope
 
 To create a **new repository** under the AAFC GitHub organization:
 
-1. Submit a ticket via the MyITCentreTI application under category: 
-   
-   `Science IT Support > Science Code Catalogue > Repository Management > Creating private repositories`
+1. Submit a ticket via the *MyITCentreTI* application:
 
-   Include the following details in the ticket:
-   - GitHub handle of the admin on this repository
-   - Email ID of the admin's supervisor 
-   - Proposed repository name and a 1-2 line bilingual (EN/FR) description
-  
-2. The new repository will be created using the [template repository](https://github.com/AAFC-Bioinfo-AAC/template-repository) that includes:
-   - A default `README.md` template
-   - A default License (MIT) and Crown copyright
-   - Other files (CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md, etc)
+   ```
+   Science IT Support > Science Code Catalogue > Repository Management > Creating private repositories
+   ```
 
-3. The admin is responsible for maintaining the repo and may add team members and assign privileges (read/write). The admin may also request adding/removing users or modifying user privileges via a MyITCentreTI ticket in the appropriate category under: 
-   
-   `Science IT Support > Science Code Catalogue > Account Management`
-   
-4. The README template may be customised as needed — just ensure the repo remains **reproducible**, with clear metadata, documentation, and usage instructions.
-   
+2. Include the following details:
+   - GitHub handle of the repository admin
+   - Email of the admin's supervisor
+   - Proposed repository name and a brief bilingual (EN/FR) description
 
+3. The repository will be initialized from the [template repository](https://github.com/AAFC-Bioinfo-AAC/template-repository), which includes:
+   - A default `README.md`
+   - An MIT License with Crown copyright
+   - Supporting documents (e.g., `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`)
+
+4. The designated admin is responsible for repository maintenance, including:
+   - Managing team members and assigning roles
+   - Submitting access or privilege change requests via:
+
+     ```
+     Science IT Support > Science Code Catalogue > Account Management
+     ```
+
+5. You may customize the README and other files as needed. Ensure your repository is **reproducible**, well-documented, and includes clear usage instructions.
 
 ---
 
 ## Publishing a Repository
 
-When your code is ready for public release:
+To make your repository publicly accessible:
 
-1. Submit a ticket via the MyITCentreTI application under category: 
-   
-   `Science IT Support > Science Code Catalogue > Repository Management > Reviewing repositories for approval before publication`
+1. Submit a *MyITCentreTI* ticket under:
 
-   Please ensure that:
-   - all steps in the `Approval process for open source code` have been followed and the
-   - the associated form and its check list are attached (links provided via the ticket)
-   - the appropriate License is included in the repository (consult with your local OIPC officer if in doubt). 
+   ```
+   Science IT Support > Science Code Catalogue > Repository Management > Reviewing repositories for approval before publication
+   ```
+
+2. Ensure:
+   - All steps in the Approval Process for Open Source Code have been completed, and the required form and checklist are attached to the ticket (refer to the ticket page for links to those documents).
+   - The appropriate license is included (consult your local OIPC/Commercialization Officer if uncertain).
 
 ---
 
 ## Migrating an Existing Repository
 
-Already have a GitHub repo in a personal or external account?
+If you already have a GitHub repository outside the organization:
 
-1. Backup or clone your repo locally.
-2. Request a new repository via the process above.
-3. Push your local copy into the new repo.
+1. Backup or clone your existing repository.
+2. Request a new repository via the standard process above.
+3. Push your local copy to the newly created repository.
 
 ---
 
 ## Managing Repository Access
 
-The admin of the repo can add **team members** with specific permissions (e.g., read, write).
-**Only AAFC GitHub Organization Owners** can **Create** or **delete** repositories and change organization-wide settings.
+- Repository admins can add team members and assign read/write privileges.
+- **Only AAFC GitHub Organization Owners** can create/delete repositories or modify organization-wide settings.
 
-If you need a repo deleted/archived/deprecated, please submit a ticket via the MyITCentreTI application in the appropriate category under: 
-   
-   `Science IT Support > Science Code Catalogue > Repository Management`
+To request repository deletion, archival, or deprecation, submit a *MyITCentreTI* ticket under:
+
+```
+Science IT Support > Science Code Catalogue > Repository Management
+```
 
 ---
 
 ## Contributing to Existing Repositories
 
 ### Public Repositories
-- Open an **issue** to suggest changes, report bugs, or start discussions.
-- Fork the repo, submit **pull requests**, and follow the `CONTRIBUTING.md` guidelines.
+
+- Open issues to suggest features, report bugs, or initiate discussions.
+- Fork the repository and submit pull requests according to the `CONTRIBUTING.md` guidelines.
 
 ### Private Repositories
-- Refer to the [internal SharePoint list of private repositories](https://001gc.sharepoint.com/sites/42732/asd1/Forms/AllItems.aspx?id=%2Fsites%2F42732%2Fasd1%2FABCC%2FList%20of%20private%20repos%2Epdf&parent=%2Fsites%2F42732%2Fasd1%2FABCC) for repositories of interest.
-- Contact the listed owner or maintainer to request access or propose contributions.
+
+- Refer to the [internal list of private repositories](https://001gc.sharepoint.com/sites/42732/asd1/Forms/AllItems.aspx?id=%2Fsites%2F42732%2Fasd1%2FABCC%2FList%20of%20private%20repos%2Epdf).
+- Contact the repository owner/maintainer for access or collaboration.
 
 ---
 
 ## Code of Conduct
 
-All contributors must follow the [Values and Ethics Code for the Public Sector](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=25049). Be respectful, inclusive, and constructive in all interactions.
+All contributors must adhere to the [Values and Ethics Code for the Public Sector](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=25049). Be respectful, inclusive, and constructive in all interactions.
 
 ---
 
 ## Need Help?
 
-Email **aafc.bioinfosupport.aac@agr.gc.ca**​, with subject ABCC and include as much detail as possible to help us assist you efficiently.
+For assistance, email:  
+**aafc.bioinfosupport.aac@agr.gc.ca**  
+(Use the subject line **ABCC** and provide detailed information.)
 
-Security vulnerabilities must be reported by email to **aafc.bice-ceib.aac@agr.gc.ca**. Do not post any security issues on the public repository! 
-
-
+To report security vulnerabilities, email:  
+**aafc.bice-ceib.aac@agr.gc.ca**  
+(Do **not** post security issues publicly.)
