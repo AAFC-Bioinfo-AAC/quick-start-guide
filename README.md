@@ -39,7 +39,7 @@ To create a **new repository** under the AAFC GitHub organization:
 2. Include the following details:
    - GitHub handle of the repository admin
    - Email of the admin's supervisor
-   - Proposed repository name following guidelines in the [Repository naming style guide](.repo-naming-style-guide.md)
+   - Proposed repository name following guidelines in the [Repository naming style guide](repo-naming-style-guide.md).
    - Brief bilingual (EN/FR) description of 1-2 lines
 
 3. The repository will be initialized from the [template repository](https://github.com/AAFC-Bioinfo-AAC/template-repository), which includes:
