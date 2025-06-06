@@ -1,0 +1,93 @@
+# Repository Naming Style Guide
+
+## About
+
+This guide outlines best practices for naming GitHub repositories in a consistent, searchable, and collaborative way. It is intended for use across all projects under this Github organization.
+
+---
+## Table of Contents
+- [Repository Naming Style Guide](#repository-naming-style-guide)
+  - [About](#about)
+  - [Table of Contents](#table-of-contents)
+  - [General Naming Conventions](#general-naming-conventions)
+  - [Structural Patterns by Type](#structural-patterns-by-type)
+    - [Research Projects](#research-projects)
+    - [Pipelines/Tools](#pipelinestools)
+    - [Utilities / Scripts](#utilities--scripts)
+    - [Libraries / APIs](#libraries--apis)
+    - [Web Interfaces](#web-interfaces)
+  - [Collaboration \& Ownership Prefixes (Optional)](#collaboration--ownership-prefixes-optional)
+  - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+  - [Examples of Good Names](#examples-of-good-names)
+
+
+## General Naming Conventions
+
+| Rule | Guideline |
+|------|-----------|
+| **Lowercase** | Use lowercase letters only. Avoid uppercase to maintain consistency across OSes. |
+| **Kebab-case** | Use hyphens (`-`) to separate words: e.g., `genome-assembler`, `api-client`. |
+| **No spaces** | Never use spaces; they break URLs and CLI tools. |
+| **No special characters** | Avoid characters like `@`, `#`, `!`, etc. Stick to letters, numbers, and hyphens. |
+| **Keep it short and descriptive** | Aim for clarity, not length: `snp-pipeline` > `a_pipeline_for_snps_on_genomes` |
+| **Use keywords** | Include relevant terms for easy searchability (e.g., `alignment-tool`, `rna-seq-qc`). |
+
+---
+
+## Structural Patterns by Type
+
+### Research Projects
+- `pathogen-genome-assembly`
+- `metagenomics-qc`
+- `host-microbiome-modeling`
+
+### Pipelines/Tools
+- `rna-seq-pipeline`
+- `variant-caller`
+- `image-segmentation-model`
+
+### Utilities / Scripts
+- `data-cleaner`
+- `metadata-parser`
+
+### Libraries / APIs
+- `python-genomics-api`
+- `r-statmodel-utils`
+
+### Web Interfaces
+- `sample-tracking-ui`
+- `bioportal-dashboard`
+
+---
+
+## Collaboration & Ownership Prefixes (Optional)
+
+For internal repos or team-based grouping:
+- `bioinfo-snp-caller`
+- `labtech-dashboard`
+- `aafc-data-pipeline`
+
+> ℹ️ Use prefixes sparingly to avoid clutter.
+
+---
+
+## Common Pitfalls to Avoid
+
+| Pitfall | Why to Avoid |
+|--------|--------------|
+| `CamelCaseNames` | Breaks consistency and can cause issues on case-sensitive systems. |
+| `underscored_names` | Hyphens are preferred for readability and URLs. |
+| `very-long-and-descriptive-names-that-are-hard-to-remember` | Be clear, but concise. |
+| Including file extensions (e.g., `myproject.py`) | Repositories are not files. |
+
+---
+
+## Examples of Good Names
+
+- `genome-visualizer`
+- `rna-seq-qc`
+- `field-sensor-api`
+- `plant-pathogen-models`
+- `microbe-tracker-pipeline`
+
+---
