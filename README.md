@@ -11,6 +11,11 @@
   - [Public Repositories](#public-repositories)
   - [Private Repositories](#private-repositories)
 - [Code of Conduct](#code-of-conduct)
+- [Credits](#credits)
+- [Contribution](#contribution)
+- [Copyright](#copyright)
+- [License](#license)
+- [References](#references)
 - [Need Help?](#need-help)
 
 ---
@@ -34,7 +39,8 @@ To create a **new repository** under the AAFC GitHub organization:
 2. Include the following details:
    - GitHub handle of the repository admin
    - Email of the admin's supervisor
-   - Proposed repository name and a brief bilingual (EN/FR) description
+   - Proposed repository name following guidelines in the [Repository naming style guide](.repo-naming-style-guide.md)
+   - Brief bilingual (EN/FR) description of 1-2 lines
 
 3. The repository will be initialized from the [template repository](https://github.com/AAFC-Bioinfo-AAC/template-repository), which includes:
    - A default `README.md`
@@ -108,7 +114,36 @@ Science IT Support > Science Code Catalogue > Repository Management
 
 ## Code of Conduct
 
-All contributors must adhere to the [Values and Ethics Code for the Public Sector](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=25049). Be respectful, inclusive, and constructive in all interactions.
+All contributors must adhere to our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) to foster a respectful and inclusive environment.
+
+---
+
+## Credits
+
+Developed and maintained by the ABCC team. 
+
+---
+
+## Contribution
+
+If you would like to contribute to this project, please review the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md) and ensure you adhere to our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) to foster a respectful and inclusive environment.
+
+---
+
+## Copyright
+
+Government of Canada, Agriculture & Agri-Food Canada (AAFC).
+
+---
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for full details.
+
+---
+
+## References
+
 
 ---
 
