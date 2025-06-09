@@ -40,7 +40,7 @@ To request a new repository:
 2. Include the following:
    - GitHub username of the repository admin
    - Email of the admin's supervisor
-   - Proposed repository name (follow [Repository naming style guide](/docs/repo-naming-style-guide.md/)
+   - Proposed repository name (follow [Repository naming style guide](/docs/repo-naming-style-guide.md/))
    - Brief bilingual description (1-2 lines, EN/FR)
 
 A team member will contact the repository admin shortly with a link to the new repository, initialized from the [template repository](https://github.com/AAFC-Bioinfo-AAC/template-repository), which includes:
