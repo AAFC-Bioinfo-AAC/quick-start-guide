@@ -116,7 +116,7 @@ To request repository deletion, archival, or deprecation, submit a *MyITCentreTI
 
 ## Credits
 
-Developed and maintained by the **ABCC team**. 
+Developed and maintained by the **ABCC core team**. 
 
 ---
 
