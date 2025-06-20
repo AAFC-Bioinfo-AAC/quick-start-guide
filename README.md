@@ -75,7 +75,7 @@ To make a repository public:
 To migrate an external GitHub repository into the AAFC organization:
 
 - Clone or back up your existing repository
-- Follow the standard request process to create a new repository
+- Follow the standard request process to [create a new repository](#requesting-a-new-github-repository)
 - Push your local code to the new repository
 
 ---
