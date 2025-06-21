@@ -47,6 +47,8 @@ A team member will contact the repository admin shortly with a link to the new r
    - A License (MIT) with Crown copyright
    - Supporting documents (e.g., `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`)
 
+More details provided in the [Template Repository User Guide](docs/template-repo-user-guide.md).
+
 The designated admin (the ticket submitter or a team member) is responsible for repository maintenance, ensuring that:
 - team members and their roles are properly managed
 - repository is easy to reproduce, clearly documented, and simple for others to understand and use.
