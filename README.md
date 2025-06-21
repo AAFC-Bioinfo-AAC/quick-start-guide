@@ -47,7 +47,7 @@ A team member will contact the repository admin shortly with a link to the new r
    - A License (MIT) with Crown copyright
    - Supporting documents (e.g., `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`)
 
-The designated admin is responsible for repository maintenance, ensuring that:
+The designated admin (the ticket submitter or a team member) is responsible for repository maintenance, ensuring that:
 - team members and their roles are properly managed
 - repository is easy to reproduce, clearly documented, and simple for others to understand and use.
   
@@ -82,8 +82,8 @@ To migrate an external GitHub repository into the AAFC organization:
 
 ### Managing Repository Access
 
-- Repository admins can add team members and assign read/write privileges themselves
-- For access or privilege changes, submit a ticket via *MyITCentreTI*:
+- Repository admins can add team members and assign roles themselves
+- For access or role changes, submit a ticket via *MyITCentreTI*:
 
    ```
    Science IT Support > Science Code Catalogue > Account Management
