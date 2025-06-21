@@ -57,17 +57,17 @@ The designated admin is responsible for repository maintenance, ensuring that:
 
 To make a repository public:
 
-1. Submit a ticket via *MyITCentreTI*:
+1. Ensure:
+   - All steps in the Approval Process for Open Source Code have been completed (link provided in ticket)
+   - The required form and checklist are completed (link provided in ticket).
+   - The license is correctly set (consult OIPC/Commercialization Officer if uncertain).
+
+
+2. Submit a ticket via *MyITCentreTI*:
 
    ```
    Science IT Support > Science Code Catalogue > Repository Management > Reviewing repositories for approval before publication
    ```
-
-2. Ensure:
-   - All steps in the Approval Process for Open Source Code have been completed
-   - The required form and checklist are attached to the ticket (refer to the ticket page for links to those documents).
-   - The license is correctly set (consult OIPC/Commercialization Officer if uncertain).
-
 ---
 
 ### Migrating an Existing Repository
