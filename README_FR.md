@@ -1,7 +1,7 @@
 # Guide de démarrage rapide
 
 [![FR](https://img.shields.io/badge/lang-FR-yellow.svg)](README_FR.md)
-[![EN](https://img.shields.io/badge/lang-EN-blue.svg)](README.md)
+[![EN](https://img.shields.io/badge/lang-EN-blue.svg)](https://github.com/AAFC-Bioinfo-AAC/quick-start-guide/tree/main)
 
 ## À propos
 
