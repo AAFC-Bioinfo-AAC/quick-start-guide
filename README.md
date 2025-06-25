@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-[*Cliquez ici pour la version anglaise*](README_FR.md)
+[*Cliquez ici pour la version française*](README_FR.md)
 
 ## About
 
