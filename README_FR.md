@@ -1,5 +1,7 @@
 # Guide de démarrage rapide
 
+[*Click here for the English version*](README.md)
+
 ## À propos
 
 Ce guide propose un processus simplifié pour la création, la gestion et la contribution aux dépôts de code bio-informatique au sein de l’organisation GitHub **AAFC-Bioinfo-AAC**. Il inclut les étapes de configuration des dépôts, de publication ainsi que les meilleures pratiques de contribution.
