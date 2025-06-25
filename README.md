@@ -1,5 +1,7 @@
 # Quick Start Guide
 
+[*Cliquez ici pour la version anglaise*](README_FR.md)
+
 ## About
 
 This guide provides a streamlined process for creating, managing, and contributing to bioinformatics code repositories within the **AAFC-Bioinfo-AAC** GitHub organization. It includes repository setup, publishing procedures, and contribution best practices.
@@ -63,7 +65,6 @@ To make a repository public:
    - All steps in the Approval Process for Open Source Code have been completed (link provided in ticket)
    - The required form and checklist are completed (link provided in ticket).
    - The license is correctly set (consult OIPC/Commercialization Officer if uncertain).
-
 
 2. Submit a ticket via *MyITCentreTI*:
 

@@ -2,7 +2,7 @@
 
 ## À propos
 
-Ce guide propose un processus simplifié pour la création, la gestion et la contribution aux dépôts de code bio-informatique au sein de l’organisation GitHub AAFC-Bioinfo-AAC. Il inclut les étapes de configuration des dépôts, de publication ainsi que les meilleures pratiques de contribution.
+Ce guide propose un processus simplifié pour la création, la gestion et la contribution aux dépôts de code bio-informatique au sein de l’organisation GitHub **AAFC-Bioinfo-AAC**. Il inclut les étapes de configuration des dépôts, de publication ainsi que les meilleures pratiques de contribution.
 
 ## Table des matières
 
@@ -30,14 +30,17 @@ Ce guide propose un processus simplifié pour la création, la gestion et la con
 
 Pour faire une demande d'un nouveau dépôt:
 
-1. **Soumettre un billet via MyITCentreTI**:  
-   `Science TI Support > Catalogue du code scientifique > Gestion de dépôt > Création de dépôts privés`
+1. Soumettre un billet via MyITCentreTI:
+   
+  ```
+  Science TI Support > Catalogue du code scientifique > Gestion de dépôt > Création de dépôts privés
+  ```
 
-2. **Inclure les informations suivantes:**
-   - Nom d’utilisateur GitHub de l’administrateur du dépôt
-   - Courriel du superviseur de l’administrateur
-   - Nom proposé pour le dépôt (suivre le [Guide pour nommer un dépôt](/docs/repo-naming-style-guide.md/))
-   - Brève description bilingue (1 à 2 lignes, EN/FR)
+2. Inclure les informations suivantes:
+  - Nom d’utilisateur GitHub de l’administrateur du dépôt
+  - Courriel du superviseur de l’administrateur
+  - Nom proposé pour le dépôt (suivre le [Guide pour nommer un dépôt](/docs/repo-naming-style-guide.md/))
+  - Brève description bilingue (1 à 2 lignes, EN/FR)
 
 Un membre de l’équipe communiquera avec l’administrateur du dépôt sous peu avec un lien vers le nouveau dépôt, initialisé à partir du [dépôt de gabarit](https://github.com/AAFC-Bioinfo-AAC/template-repository), qui comprend:
    - Un modèle `README.md` avec sections recommandées et exemple de contenu
@@ -129,6 +132,7 @@ Si vous souhaitez contribuer à ce projet, veuillez consulter les directives dan
 
 Ce projet est distribué sous la licence MIT. Pour les détails complets et droits d’auteur, voir le fichier [LICENSE](LICENSE).
 
+
 ---
 
 ## Besoin d’aide?
@@ -136,4 +140,4 @@ Ce projet est distribué sous la licence MIT. Pour les détails complets et droi
 Pour un soutien général, veuillez envoyer un courriel au [Réseau de soutien à la recherche en bio-informatique](mailto:aafc.bioinfosupport.aac@agr.gc.ca), en utilisant un objet commençant par "ABCC:" suivi d’un bref résumé de votre problème.
 
 🚫 **Ne divulguez pas publiquement les problèmes de sécurité.**  
-Pour signaler une vulnérabilité, écrivez à l’équipe de soutien [BICoE](mailto:aafc.bioinfosupport.aac@agr.gc.ca).
+Pour signaler une vulnérabilité, écrivez à l’équipe de soutien [BICoE](mailto:aafc.bice-ceib.aac@agr.gc.ca).
