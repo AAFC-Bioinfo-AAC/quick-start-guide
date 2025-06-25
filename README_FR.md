@@ -1,7 +1,7 @@
 # Guide de démarrage rapide
 
-[![Language:FR](https://img.shields.io/badge/Language-FR-yellow)](./README_FR.md)
-[![Language:EN](https://img.shields.io/badge/Language-EN-blue)](./README.md)
+[![FR](https://img.shields.io/badge/lang-FR-yellow.svg)](README_FR.md)
+[![EN](https://img.shields.io/badge/lang-EN-blue.svg)](README.md)
 
 ## À propos
 
