@@ -4,8 +4,6 @@
 [![Language:FR](https://img.shields.io/badge/Language-FR-yellow)](./README_FR.md)
 [![Language:EN](https://img.shields.io/badge/Language-EN-blue)](./README.md)
 
-[*Cliquez ici pour la version française*](README_FR.md)
-
 ## About
 
 This guide provides a streamlined process for creating, managing, and contributing to bioinformatics code repositories within the **AAFC-Bioinfo-AAC** GitHub organization. It includes repository setup, publishing procedures, and contribution best practices.
