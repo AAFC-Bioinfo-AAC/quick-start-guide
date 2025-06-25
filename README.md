@@ -1,5 +1,9 @@
 # Quick Start Guide
 
+
+[![Language:FR](https://img.shields.io/badge/Language-FR-yellow)](./README_FR.md)
+[![Language:EN](https://img.shields.io/badge/Language-EN-blue)](./README.md)
+
 [*Cliquez ici pour la version française*](README_FR.md)
 
 ## About
