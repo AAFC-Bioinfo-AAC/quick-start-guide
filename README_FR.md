@@ -45,7 +45,7 @@ Pour faire une demande d'un nouveau dépôt:
   - Nom proposé pour le dépôt (suivre le [Guide pour nommer un dépôt](/docs/repo-naming-style-guide.md/))
   - Brève description bilingue (1 à 2 lignes, EN/FR)
 
-Un membre de l’équipe communiquera avec l’administrateur du dépôt sous peu avec un lien vers le nouveau dépôt, initialisé à partir du [dépôt de gabarit](https://github.com/AAFC-Bioinfo-AAC/template-repository), qui comprend:
+Un membre de l’équipe communiquera avec l’administrateur du dépôt sous peu avec un lien vers le nouveau dépôt, initialisé à partir du dépôt de gabarit, qui comprend:
    - Un modèle `README.md` avec sections recommandées et exemple de contenu
    - Une licence (MIT) avec droits d’auteur de la Couronne
    - Des documents de soutien (ex. `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`)
