@@ -45,7 +45,7 @@ To request a new repository:
    - Proposed repository name (follow [Repository naming style guide](/docs/repo-naming-style-guide.md/))
    - Brief bilingual description (1-2 lines, EN/FR)
 
-A team member will contact the repository admin shortly with a link to the new repository, initialized from the [template repository](https://github.com/AAFC-Bioinfo-AAC/template-repository), which includes:
+A team member will contact the repository admin shortly with a link to the new repository, initialized from the template repository, which includes:
    - A `README.md` template with recommended sections and example content
    - A License (MIT) with Crown copyright
    - Supporting documents (e.g., `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`)
