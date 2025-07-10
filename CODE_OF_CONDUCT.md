@@ -4,7 +4,6 @@
 
 Contributors to repositories hosted here are expected to follow the Contributor Covenant Code of Conduct, and those working within Government are also expected to follow the [Values and Ethics Code for the Public Sector](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=25049).
 
-
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our
@@ -65,7 +64,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
-aafc.bioinfosupport.aac@agr.gc.ca
+<aafc.bioinfosupport.aac@agr.gc.ca>
 
 All complaints will be reviewed and investigated promptly and fairly.
 
@@ -137,10 +136,11 @@ For answers to common questions about this code of conduct, see the FAQ at
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
 
+______________________
 
 # Code de conduite
 
-([English](#Contributor-Covenant-Code-of-Conduct))
+([English](#contributor-covenant-code-of-conduct))
 
 Les contributeurs aux dépôts hébergés ici sont tenus de suivre le Code de conduite des contributeurs, et ceux travaillant au sein du gouvernement sont également tenus de suivre le [Code des valeurs et d'éthique du secteur public](https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=25049).
 
@@ -149,8 +149,8 @@ Les contributeurs aux dépôts hébergés ici sont tenus de suivre le Code de co
 En tant que membres, contributeurs et dirigeants, nous nous engageons
 à faire de la participation à notre communauté une expérience sans harcèlement,
 quel que soit l'âge, la taille, le handicap visible ou non, l'ethnicité, les
-caractéristiques sexuelles, l'identité et l'expression de genre, le niveau 
-d'expérience, l'éducation, le statut socio-économique, la nationalité, 
+caractéristiques sexuelles, l'identité et l'expression de genre, le niveau
+d'expérience, l'éducation, le statut socio-économique, la nationalité,
 l'apparence, la race, la caste, la couleur de peau, la religion, ou
 l'identité et l'orientation sexuelle.
 
@@ -201,7 +201,7 @@ lors d'un événement en ligne ou hors-ligne.
 ## Application
 
 Les cas de comportements abusifs, harcelants ou tous autres comportements
-inacceptables peuvent être signalés aux dirigeants de la communauté responsables de l'application du code de conduite à aafc.bioinfosupport.aac@agr.gc.ca
+inacceptables peuvent être signalés aux dirigeants de la communauté responsables de l'application du code de conduite à <aafc.bioinfosupport.aac@agr.gc.ca>
 
 Toutes les plaintes seront examinées et feront l'objet d'une enquête rapide et équitable.
 
@@ -266,9 +266,3 @@ Les Directives d'application ont été inspirées par le
 Pour obtenir des réponses aux questions courantes sur ce code de conduite, consultez la FAQ à
 [https://www.contributor-covenant.org/faq][FAQ]. Les traductions sont disponibles
 sur [https://www.contributor-covenant.org/translations][translations].
-
-[homepage]: https://www.contributor-covenant.org
-[v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
-[Mozilla CoC]: https://github.com/mozilla/diversity
-[FAQ]: https://www.contributor-covenant.org/faq
-[translations]: https://www.contributor-covenant.org/translations
