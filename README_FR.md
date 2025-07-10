@@ -34,25 +34,27 @@ Ce guide propose un processus simplifié pour la création, la gestion et la con
 Pour faire une demande d'un nouveau dépôt:
 
 1. Soumettre un billet via MyITCentreTI:
-   
-  ```
-  Science TI Support > Catalogue du code scientifique > Gestion de dépôt > Création de dépôts privés
-  ```
+
+   ```text
+   Science TI Support > Catalogue du code scientifique > Gestion de dépôt > Création de dépôts privés
+   ```
 
 2. Inclure les informations suivantes:
-  - Nom d’utilisateur GitHub de l’administrateur du dépôt
-  - Courriel du superviseur de l’administrateur
-  - Nom proposé pour le dépôt (suivre le [Guide pour nommer un dépôt](/docs/repo-naming-style-guide.md/))
-  - Brève description bilingue (1 à 2 lignes, EN/FR)
+   - Nom d’utilisateur GitHub de l’administrateur du dépôt
+   - Courriel du superviseur de l’administrateur
+   - Nom proposé pour le dépôt (suivre le [Guide pour nommer un dépôt](/docs/repo-naming-style-guide.md/))
+   - Brève description bilingue (1 à 2 lignes, EN/FR)
 
 Un membre de l’équipe communiquera avec l’administrateur du dépôt sous peu avec un lien vers le nouveau dépôt, initialisé à partir du dépôt de gabarit, qui comprend:
-   - Un modèle `README.md` avec sections recommandées et exemple de contenu
-   - Une licence (MIT) avec droits d’auteur de la Couronne
-   - Des documents de soutien (ex. `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`)
+
+- Un modèle `README.md` avec sections recommandées et exemple de contenu
+- Une licence (MIT) avec droits d’auteur de la Couronne
+- Des documents de soutien (ex. `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`)
 
 Plus de détails sont fournis dans le [Guide d'utilisateur du dépôt de gabarit](docs/template-repo-user-guide.md).
 
 L’administrateur désigné (demandeur du billet ou membre de l’équipe) est responsable de la maintenance du dépôt, en veillant à:
+
 - Gérer adéquatement les membres et leurs rôles
 - S’assurer que le dépôt est facile à reproduire, documenté de façon claire, et simple à comprendre et utiliser.
 
@@ -68,7 +70,8 @@ Pour rendre un dépôt public:
     - La licence est correctement définie (consulter l’agent de commercialisation si incertain)
 
 2. Soumettre un billet via Mon ITCentreTI:**  
-  ```
+
+  ```text
   Support informatique scientifique > Science Code Catalogue > Gestion de dépôt > Examen des repo pour approbation avant publication
   ```
 
@@ -89,7 +92,7 @@ Pour migrer un dépôt GitHub externe vers l’organisation AAC:
 - Les administrateurs d'un dépôt peuvent eux-mêmes ajouter des membres et attribuer des rôles.
 - Pour modifier l’accès ou les rôles, soumettre un billet via MyITCentreTI:  
 
-  ```
+  ```text
   Science TI Support > Catalogue du code scientifique > Gestion des comptes
   ```
 
@@ -97,7 +100,7 @@ Pour migrer un dépôt GitHub externe vers l’organisation AAC:
 
 - Pour demander la suppression, l’archivage ou la dépréciation d’un dépôt, soumettre un billet à Mon ITCentreTI:  
   
-  ```
+  ```text
   Support informatique scientifique > Science Code Catalogue > Gestion de dépôt
   ```
 
@@ -134,7 +137,6 @@ Si vous souhaitez contribuer à ce projet, veuillez consulter les directives dan
 ## Licence
 
 Ce projet est distribué sous la licence MIT. Pour les détails complets et droits d’auteur, voir le fichier [LICENSE](LICENSE).
-
 
 ---
 
