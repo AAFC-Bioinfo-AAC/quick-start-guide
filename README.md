@@ -3,6 +3,8 @@
 [![FR](https://img.shields.io/badge/lang-FR-yellow.svg)](README_FR.md)
 [![EN](https://img.shields.io/badge/lang-EN-blue.svg)](https://github.com/AAFC-Bioinfo-AAC/quick-start-guide)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## About
 
 This guide provides a streamlined process for creating, managing, and contributing to bioinformatics code repositories within the **AAFC-Bioinfo-AAC** GitHub organization. It includes repository setup, publishing procedures, and contribution best practices.

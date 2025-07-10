@@ -3,6 +3,8 @@
 [![FR](https://img.shields.io/badge/lang-FR-yellow.svg)](README_FR.md)
 [![EN](https://img.shields.io/badge/lang-EN-blue.svg)](https://github.com/AAFC-Bioinfo-AAC/quick-start-guide)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## À propos
 
 Ce guide propose un processus simplifié pour la création, la gestion et la contribution aux dépôts de code bio-informatique au sein de l’organisation GitHub **AAFC-Bioinfo-AAC**. Il inclut les étapes de configuration des dépôts, de publication ainsi que les meilleures pratiques de contribution.
