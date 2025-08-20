@@ -144,6 +144,5 @@ This project is distributed under the MIT License. For complete details and copy
 
 ## Need Help?
 
-For general support, please email [BRSN Support](mailto:aafc.bioinfosupport.aac@agr.gc.ca), using a subject line that begins with "ABCC:" followed by a brief summary of your issue.
-
-🚫 Do not disclose security issues publicly. To report security vulnerabilities, email [BICoE Support](mailto:aafc.bice-ceib.aac@agr.gc.ca).
+- **General inquiries**: email [BRSN](mailto:aafc.bioinfosupport.aac@agr.gc.ca) with subject: `AAFC-Bioinfo-AAC: <summary>`
+- **Report security issues:** email [BICoE](mailto:aafc.bice-ceib.aac@agr.gc.ca). 🚫 Do not post sensitive information publicly.
