@@ -144,7 +144,5 @@ Ce projet est distribué sous la licence MIT. Pour les détails complets et droi
 
 ## Besoin d’aide?
 
-Pour un soutien général, veuillez envoyer un courriel au [Réseau de soutien à la recherche en bio-informatique](mailto:aafc.bioinfosupport.aac@agr.gc.ca), en utilisant un objet commençant par "ABCC:" suivi d’un bref résumé de votre problème.
-
-🚫 **Ne divulguez pas publiquement les problèmes de sécurité.**  
-Pour signaler une vulnérabilité, écrivez à l’équipe de soutien [BICoE](mailto:aafc.bice-ceib.aac@agr.gc.ca).
+- **Questions générales**: envoyez un courriel au [RSRB](mailto:aafc.bioinfosupport.aac@agr.gc.ca) avec l’objet: `AAFC-Bioinfo-AAC: <résumé>`
+- **Signaler des problèmes de sécurité**: envoyez un courriel au [BICoE](mailto:aafc.bice-ceib.aac@agr.gc.ca). 🚫 Ne publiez pas d’informations sensibles publiquement.
