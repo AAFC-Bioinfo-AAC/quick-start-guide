@@ -7,29 +7,28 @@
 <!-- omit in toc -->
 ## About
 
-This guide provides a streamlined process for creating, managing, and contributing to bioinformatics code repositories within the **AAFC-Bioinfo-AAC** GitHub organization. It includes repository setup, publishing procedures, and coding best practices, among others.
+This guide describes available services and recommended processes to manage and contribute to bioinformatics code repositories within the **AAFC-Bioinfo-AAC** GitHub organization, associated with the AAFC Bioinformatics Code Catalogue (ABCC) project.
 
 <!-- omit in toc -->
 ## Table of Contents
 
-- [Overview](#overview)
-  - [*AAFC-Bioinfo-AAC* GitHub services](#aafc-bioinfo-aac-github-services)
-    - [1. Repository Management](#1-repository-management)
-      - [1.1. Create a new private repository](#11-create-a-new-private-repository)
-        - [Pre-requisites](#pre-requisites)
-        - [Post-approval](#post-approval)
-      - [1.2. Publish a repository](#12-publish-a-repository)
-      - [1.3. Delete/Archive/Deprecate repository](#13-deletearchivedeprecate-repository)
-    - [2. Account Management](#2-account-management)
-      - [2.1. Add new user](#21-add-new-user)
-      - [2.2. Remove user](#22-remove-user)
-      - [2.3. Modify user privileges](#23-modify-user-privileges)
-    - [3. Training](#3-training)
-    - [4. Other](#4-other)
-  - [Migrating an Existing Repository](#migrating-an-existing-repository)
-  - [Contributing to Existing Repositories](#contributing-to-existing-repositories)
-    - [Public Repositories](#public-repositories)
-    - [Private Repositories](#private-repositories)
+- [*AAFC-Bioinfo-AAC* GitHub services](#aafc-bioinfo-aac-github-services)
+  - [1. Repository Management](#1-repository-management)
+    - [1.1. Create a new private repository](#11-create-a-new-private-repository)
+      - [Pre-requisites](#pre-requisites)
+      - [Post-approval](#post-approval)
+    - [1.2. Publish a repository](#12-publish-a-repository)
+    - [1.3. Delete/Archive/Deprecate repository](#13-deletearchivedeprecate-repository)
+  - [2. Account Management](#2-account-management)
+    - [2.1. Add new user](#21-add-new-user)
+    - [2.2. Remove user](#22-remove-user)
+    - [2.3. Modify user privileges](#23-modify-user-privileges)
+  - [3. Training](#3-training)
+  - [4. Other](#4-other)
+- [Migrating an Existing Repository](#migrating-an-existing-repository)
+- [Contributing to Existing Repositories](#contributing-to-existing-repositories)
+  - [Public Repositories](#public-repositories)
+  - [Private Repositories](#private-repositories)
 - [Credits](#credits)
 - [Citation](#citation)
 - [Contribution](#contribution)
@@ -39,21 +38,17 @@ This guide provides a streamlined process for creating, managing, and contributi
 
 ---
 
-## Overview
+## *AAFC-Bioinfo-AAC* GitHub services
 
-### *AAFC-Bioinfo-AAC* GitHub services
+The following services are available via `My IT Centre TI` (internal access only) under category: `Science IT Support > AAFC Bioinformatics Code Catalogue`.
 
-The following services are available via `My IT Centre TI` (internal access only) under category: `Science IT Support > AAFC Bioinformatics Code Catalogue`, to support the *AAFC-Bioinfo-AAC* GitHub organization associated with the AAFC Bioinformatics Code Catalogue project (ABCC).
+### 1. Repository Management
 
----
-
-#### 1. Repository Management
-
-##### 1.1. Create a new private repository
+#### 1.1. Create a new private repository
 
 Complete and submit the **Create a new private repository** form to request a new repository on *AAFC-Bioinfo-AAC*, either to develop a fresh project or to [migrate an existing repository](./README.md#migrating-an-existing-repository) from another location to continue development here.
 
-###### Pre-requisites
+##### Pre-requisites
 
 Prior to submitting the ticket, ensure that you have the following information ready:
 
@@ -63,7 +58,7 @@ Prior to submitting the ticket, ensure that you have the following information r
   - At least one user must be assigned the `admin` role.
   - Additional members may be added later directly by the `admin`. However, if a user is not yet part of `AAFC-Bioinfo-AAC`, the recommended method is to use the [Add new user](./README.md#21-add-new-user) form, to manage organizational membership consistently.
 
-###### Post-approval
+##### Post-approval
 
 Once the ticket is approved, the designated repository `admin` will be notified by email of the new repository, initialized from the `AAFC-Bioinfo-AAC` template repository, with the following content included:
 
@@ -73,7 +68,7 @@ Once the ticket is approved, the designated repository `admin` will be notified 
 
 The repository `admin` is responsible for ongoing maintenance, ensuring that the team members and roles are properly managed. All contributors are expected to apply established [coding best practices](./docs/coding-best-practices.md).
 
-##### 1.2. Publish a repository
+#### 1.2. Publish a repository
 
 To make a repository public:
 
@@ -88,11 +83,11 @@ To make a repository public:
    Science IT Support > Science Code Catalogue > Repository Management > Reviewing repositories for approval before publication
    ```
 
-##### 1.3. Delete/Archive/Deprecate repository
+#### 1.3. Delete/Archive/Deprecate repository
 
 ---
 
-#### 2. Account Management
+### 2. Account Management
 
 - Repository admins can add team members and assign roles themselves
 - For access or role changes, submit a ticket via *MyITCentreTI*:
@@ -109,23 +104,23 @@ To request repository deletion, archival, or deprecation, submit a *MyITCentreTI
    Science IT Support > Science Code Catalogue > Repository Management
    ```
 
-##### 2.1. Add new user
+#### 2.1. Add new user
 
-##### 2.2. Remove user
+#### 2.2. Remove user
 
-##### 2.3. Modify user privileges
-
----
-
-#### 3. Training
+#### 2.3. Modify user privileges
 
 ---
 
-#### 4. Other
+### 3. Training
 
 ---
 
-### Migrating an Existing Repository
+### 4. Other
+
+---
+
+## Migrating an Existing Repository
 
 To migrate an external GitHub repository into the AAFC organization:
 
@@ -135,14 +130,14 @@ To migrate an external GitHub repository into the AAFC organization:
 
 ---
 
-### Contributing to Existing Repositories
+## Contributing to Existing Repositories
 
-#### Public Repositories
+### Public Repositories
 
 - Open Github issues to suggest features, report bugs, or initiate discussions.
 - Fork the repository, make edits and open a pull request per `CONTRIBUTING.md` guidelines.
 
-#### Private Repositories
+### Private Repositories
 
 - Refer to the [internal list of private repositories](https://001gc.sharepoint.com/:u:/r/sites/42732/SitePages/abcc-private-repos.aspx?csf=1&web=1&e=jXxrXb).
 - Contact the repository owner/maintainer for access or collaboration.
