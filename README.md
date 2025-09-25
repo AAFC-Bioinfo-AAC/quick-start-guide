@@ -15,8 +15,6 @@ This guide describes available services and recommended processes to manage and 
 - [*AAFC-Bioinfo-AAC* GitHub services](#aafc-bioinfo-aac-github-services)
   - [1. Repository Management](#1-repository-management)
     - [1.1. Create a new private repository](#11-create-a-new-private-repository)
-      - [Pre-requisites](#pre-requisites)
-      - [Post-approval](#post-approval)
     - [1.2. Publish a repository](#12-publish-a-repository)
     - [1.3. Delete/Archive/Deprecate repository](#13-deletearchivedeprecate-repository)
   - [2. Account Management](#2-account-management)
@@ -40,48 +38,37 @@ This guide describes available services and recommended processes to manage and 
 
 ## *AAFC-Bioinfo-AAC* GitHub services
 
-The following services are available via `My IT Centre TI` (internal access only) under category: `Science IT Support > AAFC Bioinformatics Code Catalogue`.
+The following services are available via `My IT Centre TI` under category: `Science IT Support > AAFC Bioinformatics Code Catalogue` ([internal access link](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=)).
 
 ### 1. Repository Management
 
 #### 1.1. Create a new private repository
 
-Complete and submit the **Create a new private repository** form to request a new repository on *AAFC-Bioinfo-AAC*, either to develop a fresh project or to [migrate an existing repository](./README.md#migrating-an-existing-repository) from another location to continue development here.
-
-##### Pre-requisites
-
-Prior to submitting the ticket, ensure that you have the following information ready:
+To request a new repository on *AAFC-Bioinfo-AAC*, either to develop a fresh project or to [migrate an existing repository](./README.md#migrating-an-existing-repository) from another location, select **Create a new private repository** button and complete the form with the following information:
 
 - A repository name that complies with the [AAFC-Bioinfo-AAC repository naming conventions](./docs/repo-naming-style-guide.md).
-- A concise, one-line description of the repository in both English and French.
-- A list of GitHub usernames and roles (`admin`, `maintain`, `read` or `write`; refer [permissions-for-each-role](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role)) of all members to be added to the repo.
-  - At least one user must be assigned the `admin` role.
-  - Additional members may be added later directly by the `admin`. However, if a user is not yet part of `AAFC-Bioinfo-AAC`, the recommended method is to use the [Add new user](./README.md#21-add-new-user) form, to manage organizational membership consistently.
+- A concise description (1-2 lines) of the repository in both English and French.
+- Repository admin's name, official email address, GitHub username and supervisor's email address.
+- A list of names, email addresses, GitHub usernames and roles (`admin`, `maintain`, `read` or `write`; refer [permissions-for-each-role](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role)) of any other users to be added to the repository.
 
-##### Post-approval
+Note that at least one user must be assigned the `admin` role. The repository `admin` will be responsible for ongoing maintenance, ensuring that the team members and roles are properly managed. All contributors are expected to apply established [coding best practices](./docs/coding-best-practices.md). Additional users may be added later to the repository directly by the `admin`. However, if a user is not yet part of `AAFC-Bioinfo-AAC`, the recommended method is to use the [Add new user](./README.md#21-add-new-user) form, to manage organizational membership consistently.
 
-Once the ticket is approved, the designated repository `admin` will be notified by email of the new repository, initialized from the `AAFC-Bioinfo-AAC` template repository, with the following content included:
+The designated repository `admin` will be notified by email of the new private repository, initialized from the `AAFC-Bioinfo-AAC` template repository, with the following content included:
 
 - English and French `README` templates (with instructions for recommended sections and example content).
 - A default MIT License with Crown copyright.
 - Standard supporting documents (e.g., `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`, etc.).
 
-The repository `admin` is responsible for ongoing maintenance, ensuring that the team members and roles are properly managed. All contributors are expected to apply established [coding best practices](./docs/coding-best-practices.md).
-
 #### 1.2. Publish a repository
 
-To make a repository public:
+To make a repository public, select **Publish a repository** button and complete the form with the following information:
 
-1. Ensure:
-   - All steps in the Approval Process for Open Source Code have been completed (link provided in ticket)
-   - The required form and checklist are completed (link provided in ticket).
-   - The license is correctly set (consult OIPC/Commercialization Officer if uncertain).
+- Repository name
+- Repository admin's name, official email address, GitHub username and supervisor's email address
+- Attach a completed **Open-Source Development or Publication Approval Form**, signed by the Associate Director of your centre.
 
-2. Submit a ticket via *MyITCentreTI*:
+Following a successful security review of the repository and ISB Director approval, the repository will be published.
 
-   ```text
-   Science IT Support > Science Code Catalogue > Repository Management > Reviewing repositories for approval before publication
-   ```
 
 #### 1.3. Delete/Archive/Deprecate repository
 
