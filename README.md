@@ -18,9 +18,9 @@ This guide describes available services and recommended processes to manage and 
     - [1.2. Publish a repository (make Public)](#12-publish-a-repository-make-public)
     - [1.3. Delete/Archive/Deprecate repository](#13-deletearchivedeprecate-repository)
   - [2. Account Management](#2-account-management)
-    - [2.1. Add new user](#21-add-new-user)
-    - [2.2. Remove user](#22-remove-user)
-    - [2.3. Modify user privileges](#23-modify-user-privileges)
+    - [2.1. Add New User](#21-add-new-user)
+    - [2.2. Remove User](#22-remove-user)
+    - [2.3. Modify User Privileges](#23-modify-user-privileges)
   - [3. Training](#3-training)
   - [4. Other](#4-other)
 - [Credits](#credits)
@@ -91,11 +91,26 @@ All requests will be reviewed by the `AAFC-Bioinfo-AAC` admin team. For deletion
 
 ### 2. Account Management
 
-#### 2.1. Add new user
+#### 2.1. Add New User
 
-#### 2.2. Remove user
+To onboard a new contributor to `AAFC-Bioinfo-AAC`, click **Add new user** and provide:
 
-#### 2.3. Modify user privileges
+- User’s name, official email, GitHub username, and supervisor’s email
+- Name of repository (one or more) to be added to and role (admin, maintain, write, or read; refer [role permissions guide](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role))
+
+Once approved, the user will be added to the organization and will be assigned roles in repositories requested.
+
+#### 2.2. Remove User
+
+To remove a user from the organization or one or more repositories, click **Remove user** and submit all info as requested in the section 2.1 above, and additionally, the reason for removal.
+
+The request will be reviewed and processed by the admin team. A confirmation will be sent to the repository admin and supervisor.
+
+#### 2.3. Modify User Privileges
+
+To change a user’s role within a repository, click **Modify user privileges** and provide all info as requested in the section 2.1 above.
+
+Role changes will be reviewed to ensure alignment with organizational policies.
 
 ---
 
