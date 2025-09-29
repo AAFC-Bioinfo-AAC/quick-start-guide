@@ -69,8 +69,20 @@ To make a repository public, select **Publish a repository** button and complete
 
 Following a successful security review of the repository and ISB Director approval, the repository will be published.
 
-
 #### 1.3. Delete/Archive/Deprecate repository
+
+To request the removal or status change (Archive/Deprecate) of a repository, select the **Delete/Archive/Deprecate repository** button and complete the form with the following details:
+
+- Repository name
+- Repository admin's name, official email address, GitHub username and supervisor's email address
+- Reason for deletion, archival, or deprecation
+Preferred action:
+
+Delete: Permanently remove the repository from the organization. This action is irreversible.
+Archive: Lock the repository to prevent further changes while preserving its contents for reference.
+Deprecate: Mark the repository as deprecated, update the README to reflect its status, and optionally link to a successor repository if applicable.
+
+All requests will be reviewed by the `AAFC-Bioinfo-AAC` admin team. For deletion requests, a confirmation will be sent to the repository admin and supervisor before proceeding. Archival and deprecation actions will be completed following internal review and notification.
 
 ---
 
