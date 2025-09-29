@@ -23,10 +23,6 @@ This guide describes available services and recommended processes to manage and 
     - [2.3. Modify user privileges](#23-modify-user-privileges)
   - [3. Training](#3-training)
   - [4. Other](#4-other)
-- [Migrating an Existing Repository](#migrating-an-existing-repository)
-- [Contributing to Existing Repositories](#contributing-to-existing-repositories)
-  - [Public Repositories](#public-repositories)
-  - [Private Repositories](#private-repositories)
 - [Credits](#credits)
 - [Citation](#citation)
 - [Contribution](#contribution)
@@ -95,21 +91,6 @@ All requests will be reviewed by the `AAFC-Bioinfo-AAC` admin team. For deletion
 
 ### 2. Account Management
 
-- Repository admins can add team members and assign roles themselves
-- For access or role changes, submit a ticket via *MyITCentreTI*:
-
-   ```text
-   Science IT Support > Science Code Catalogue > Account Management
-   ```
-
-- **Only AAFC GitHub Organization Owners** can create/delete repositories or modify organization-wide settings.
-
-To request repository deletion, archival, or deprecation, submit a *MyITCentreTI* ticket under:
-
-   ```text
-   Science IT Support > Science Code Catalogue > Repository Management
-   ```
-
 #### 2.1. Add new user
 
 #### 2.2. Remove user
@@ -120,33 +101,27 @@ To request repository deletion, archival, or deprecation, submit a *MyITCentreTI
 
 ### 3. Training
 
+Training sessions and onboarding materials are available to help users effectively manage repositories and contribute to projects. These include:
+
+- Introductory GitHub tutorials for new users
+- Best practices for collaborative coding and version control
+- Guidelines for repository setup, documentation, and publication
+- Security and compliance training for open-source contributions
+
+To request training or access materials, contact the `AAFC-Bioinfo-AAC` admin team via this selection.
+
 ---
 
 ### 4. Other
 
----
+For any requests not covered by the above categories—such as:
 
-## Migrating an Existing Repository
+- Repository migration support
+- Custom automation or CI/CD setup
+- Integration with external tools or platforms
+- Technical troubleshooting
 
-To migrate an external GitHub repository into the AAFC organization:
-
-- Clone or back up your existing repository
-- Follow the standard request process to [create a new repository](#requesting-a-new-github-repository)
-- Push your local code to the new repository
-
----
-
-## Contributing to Existing Repositories
-
-### Public Repositories
-
-- Open Github issues to suggest features, report bugs, or initiate discussions.
-- Fork the repository, make edits and open a pull request per `CONTRIBUTING.md` guidelines.
-
-### Private Repositories
-
-- Refer to the [internal list of private repositories](https://001gc.sharepoint.com/:u:/r/sites/42732/SitePages/abcc-private-repos.aspx?csf=1&web=1&e=jXxrXb).
-- Contact the repository owner/maintainer for access or collaboration.
+Please submit a request here with a clear description of your needs. The support team will assess and follow up accordingly.
 
 ---
 
