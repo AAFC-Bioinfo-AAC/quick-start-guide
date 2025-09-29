@@ -44,20 +44,27 @@ The following services are available via `My IT Centre TI` under category: `Scie
 
 #### 1.1. Create a new private repository
 
-To request a new repository on *AAFC-Bioinfo-AAC*, either to develop a fresh project or to [migrate an existing repository](./README.md#migrating-an-existing-repository) from another location, select **Create a new private repository** button and complete the form with the following information:
+To initiate a new project or migrate an existing one to the `AAFC-Bioinfo-AAC` GitHub organization, click **Create a new private repository** and complete the form with:
 
-- A repository name that complies with the [AAFC-Bioinfo-AAC repository naming conventions](./docs/repo-naming-style-guide.md).
-- A concise description (1-2 lines) of the repository in both English and French.
-- Repository admin's name, official email address, GitHub username and supervisor's email address.
-- A list of names, email addresses, GitHub usernames and roles (`admin`, `maintain`, `read` or `write`; refer [permissions-for-each-role](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role)) of any other users to be added to the repository.
+- A repository name following [AAFC-Bioinfo-AAC repository naming conventions](./docs/repo-naming-style-guide.md).
+- A brief bilingual description (English and French)
+- Repository admin’s name, official email, GitHub username, and supervisor’s email
+- If applicable, a list of team members with their names, email, GitHub username and assigned roles (admin, maintain, write, or read; refer [role permissions guide](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role))
 
-Note that at least one user must be assigned the `admin` role. The repository `admin` will be responsible for ongoing maintenance, ensuring that the team members and roles are properly managed. All contributors are expected to apply established [coding best practices](./docs/coding-best-practices.md). Additional users may be added later to the repository directly by the `admin`. However, if a user is not yet part of `AAFC-Bioinfo-AAC`, the recommended method is to use the [Add new user](./README.md#21-add-new-user) form, to manage organizational membership consistently.
+Important Notes:
 
-The designated repository `admin` will be notified by email of the new private repository, initialized from the `AAFC-Bioinfo-AAC` template repository, with the following content included:
+- At least one user must be assigned the admin role.
+- The admin is responsible for ongoing repository maintenance and user management.
+- Contributors must follow [coding best practices](./docs/coding-best-practices.md).
+- Additional users can be added later by the admin. If a user is not yet part of the organization, use the [Add new user](./README.md#21-add-new-user) form to ensure proper onboarding.
 
-- English and French `README` templates (with instructions for recommended sections and example content).
-- A default MIT License with Crown copyright.
-- Standard supporting documents (e.g., `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`, etc.).
+Once approved, the repository will be initialized from the standard template, including:
+
+- Bilingual README templates with guidance and examples
+- MIT License with Crown copyright
+- Standard documents: `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`, etc.
+
+ [Add new user](./README.md#21-add-new-user) form, to manage organizational membership consistently.
 
 #### 1.2. Publish a repository
 
