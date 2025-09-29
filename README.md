@@ -60,8 +60,6 @@ Once approved, the repository will be initialized from the standard template, in
 - MIT License with Crown copyright
 - Standard documents: `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`, etc.
 
- [Add new user](./README.md#21-add-new-user) form, to manage organizational membership consistently.
-
 #### 1.2. Publish a repository (make Public)
 
 To request that a repository be made public, click **Publish a repository** and provide:
@@ -80,7 +78,6 @@ To change the status of a repository, click **Delete/Archive/Deprecate repositor
   - Delete: Permanently remove the repository from the organization. This action is irreversible.
   - Archive: Lock the repository to prevent further changes while preserving its contents for reference.
   - Deprecate: Mark the repository as deprecated, update the README to reflect its status, and optionally link to a successor repository if applicable.
-
 - Repository name
 - Repository admin's name, official email, GitHub username and supervisor's email
 - Reason for deletion, archival, or deprecation
