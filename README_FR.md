@@ -1,148 +1,176 @@
+<!-- omit in toc -->
 # Guide de démarrage rapide
 
 [![FR](https://img.shields.io/badge/lang-FR-yellow.svg)](README_FR.md)
 [![EN](https://img.shields.io/badge/lang-EN-blue.svg)](https://github.com/AAFC-Bioinfo-AAC/quick-start-guide)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+<!-- omit in toc -->
 ## À propos
 
-Ce guide propose un processus simplifié pour la création, la gestion et la contribution aux dépôts de code bio-informatique au sein de l’organisation GitHub **AAFC-Bioinfo-AAC**. Il inclut les étapes de configuration des dépôts, de publication ainsi que les meilleures pratiques de contribution.
+Ce guide décrit les services disponibles et les processus recommandés pour gérer et contribuer aux dépôts de code bio-informatique au sein de l’organisation GitHub **AAFC-Bioinfo-AAC**, associée au projet *AAFC Bioinformatics Code Catalogue* (ABCC).
 
+<!-- omit in toc -->
 ## Table des matières
 
-- [Guide de démarrage rapide](#guide-de-démarrage-rapide)
-  - [À propos](#à-propos)
-  - [Table des matières](#table-des-matières)
-  - [Aperçu](#aperçu)
-    - [Faire une demande d'un nouveau dépôt GitHub](#faire-une-demande-dun-nouveau-dépôt-github)
-    - [Publication d’un dépôt](#publication-dun-dépôt)
-    - [Migration d’un dépôt existant](#migration-dun-dépôt-existant)
-    - [Gestion de l’accès d'un dépôt](#gestion-de-laccès-dun-dépôt)
-    - [Contributions aux dépôts existants](#contributions-aux-dépôts-existants)
-      - [Dépôts publics](#dépôts-publics)
-      - [Dépôts privés](#dépôts-privés)
-  - [Crédits](#crédits)
-  - [Contribution](#contribution)
-  - [Licence](#licence)
-  - [Besoin d’aide?](#besoin-daide)
+- [Services GitHub *AAFC-Bioinfo-AAC*](#services-github-aafc-bioinfo-aac)
+  - [1. Gestion des dépôts](#1-gestion-des-dépôts)
+    - [1.1. Créer un nouveau dépôt privé](#11-créer-un-nouveau-dépôt-privé)
+    - [1.2. Publier un dépôt (rendre public)](#12-publier-un-dépôt-rendre-public)
+    - [1.3. Supprimer / Archiver / Déprécier un dépôt](#13-supprimer--archiver--déprécier-un-dépôt)
+  - [2. Gestion des comptes](#2-gestion-des-comptes)
+    - [2.1. Ajouter un nouvel utilisateur](#21-ajouter-un-nouvel-utilisateur)
+    - [2.2. Supprimer un utilisateur](#22-supprimer-un-utilisateur)
+    - [2.3. Modifier les privilèges d’un utilisateur](#23-modifier-les-privilèges-dun-utilisateur)
+  - [3. Formation](#3-formation)
+  - [4. Autres](#4-autres)
+- [Crédits](#crédits)
+- [Citation](#citation)
+- [Contribution](#contribution)
+- [Sécurité](#sécurité)
+- [Licence](#licence)
+- [Besoin d’aide ?](#besoin-daide)
 
 ---
 
-## Aperçu
+## Services GitHub *AAFC-Bioinfo-AAC*
 
-### Faire une demande d'un nouveau dépôt GitHub
+Les services suivants sont disponibles via `Mon centre TI` sous la catégorie : `Soutien TI scientifique > AAFC Bioinformatics Code Catalogue` ([lien d’accès interne](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=)).
 
-Pour faire une demande d'un nouveau dépôt:
+### 1. Gestion des dépôts
 
-1. Soumettre un billet via MyITCentreTI:
+#### 1.1. Créer un nouveau dépôt privé
 
-   ```text
-   Science TI Support > Catalogue du code scientifique > Gestion de dépôt > Création de dépôts privés
-   ```
+Pour démarrer un nouveau projet ou migrer un projet existant vers l’organisation GitHub `AAFC-Bioinfo-AAC`, cliquez sur **Créer un nouveau dépôt privé** et remplissez le formulaire avec :
 
-2. Inclure les informations suivantes:
-   - Nom d’utilisateur GitHub de l’administrateur du dépôt
-   - Courriel du superviseur de l’administrateur
-   - Nom proposé pour le dépôt (suivre le [Guide pour nommer un dépôt](/docs/repo-naming-style-guide.md/))
-   - Brève description bilingue (1 à 2 lignes, EN/FR)
+- Un nom de dépôt conforme aux [conventions de nommage des dépôts AAFC-Bioinfo-AAC](./docs/repo-naming-style-guide.md).
+- Une brève description bilingue (anglais et français)
+- Le nom de l’administrateur ou de l’administratrice du dépôt, son courriel officiel, son nom d’utilisateur GitHub, ainsi que le courriel de la personne superviseure
+- Le cas échéant, la liste des membres de l’équipe avec leurs nom, courriel, nom d’utilisateur GitHub et rôle attribué (admin, maintain, write ou read; voir le [guide des permissions par rôle](https://docs.github.com/fr/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role))
 
-Un membre de l’équipe communiquera avec l’administrateur du dépôt sous peu avec un lien vers le nouveau dépôt, initialisé à partir du dépôt de gabarit, qui comprend:
+Remarques importantes :
 
-- Un modèle `README.md` avec sections recommandées et exemple de contenu
-- Une licence (MIT) avec droits d’auteur de la Couronne
-- Des documents de soutien (ex. `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`)
+- Au moins une personne doit se voir attribuer le rôle d’administrateur·trice.
+- L’administrateur·trice est responsable de la maintenance continue du dépôt et de la gestion des utilisateurs.
+- Les contributeurs et contributrices doivent suivre les [bonnes pratiques de codage](./docs/coding-best-practices.md).
+- Des utilisateurs additionnels peuvent être ajoutés plus tard par l’administrateur·trice. Si une personne n’est pas encore membre de l’organisation, utilisez le formulaire [Ajouter un nouvel utilisateur](./README.md#21-add-new-user) pour assurer un *onboarding* approprié.
 
-Plus de détails sont fournis dans le [Guide d'utilisateur du dépôt de gabarit](docs/template-repo-user-guide.md).
+Une fois la demande approuvée, le dépôt sera initialisé à partir du modèle standard, comprenant :
 
-L’administrateur désigné (demandeur du billet ou membre de l’équipe) est responsable de la maintenance du dépôt, en veillant à:
+- Des modèles de README bilingues avec conseils et exemples
+- La licence MIT avec droit d’auteur de la Couronne
+- Des documents standard : `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`, etc.
 
-- Gérer adéquatement les membres et leurs rôles
-- S’assurer que le dépôt est facile à reproduire, documenté de façon claire, et simple à comprendre et utiliser.
+#### 1.2. Publier un dépôt (rendre public)
 
----
+Pour demander qu’un dépôt devienne public, cliquez sur **Publier un dépôt** et fournissez :
 
-### Publication d’un dépôt
+- Le nom du dépôt
+- Le nom de l’administrateur·trice du dépôt, son courriel officiel, son nom d’utilisateur GitHub et le courriel de la personne superviseure
+- Un **Formulaire d’approbation pour le développement ou la publication en source ouverte** (lien fourni dans le billet), signé par le directeur ou la directrice adjoint·e de votre centre
 
-Pour rendre un dépôt public:
+Après un examen de sécurité réussi et l’approbation du ou de la directrice de l’ISB, le dépôt sera publié.
 
-1. S’assurer que:
-    - Toutes les étapes du Processus d’approbation pour le développement de code source ouvert sont complétées (lien fourni dans le billet)
-    - Le formulaire requis et la liste de vérification sont remplis (lien fourni dans le billet)
-    - La licence est correctement définie (consulter l’agent de commercialisation si incertain)
+#### 1.3. Supprimer / Archiver / Déprécier un dépôt
 
-2. Soumettre un billet via Mon ITCentreTI:**  
+Pour modifier l’état d’un dépôt, cliquez sur **Supprimer/Archiver/Déprécier un dépôt** et soumettez les éléments suivants :
 
-  ```text
-  Support informatique scientifique > Science Code Catalogue > Gestion de dépôt > Examen des repo pour approbation avant publication
-  ```
+- Action souhaitée :
+  - Supprimer : retirer définitivement le dépôt de l’organisation. Cette action est irréversible.
+  - Archiver : verrouiller le dépôt pour empêcher toute modification tout en préservant son contenu à des fins de référence.
+  - Déprécier : marquer le dépôt comme déprécié, mettre à jour le README pour refléter ce statut et, au besoin, lier à un dépôt successeur.
+- Nom du dépôt
+- Nom de l’administrateur·trice du dépôt, son courriel officiel, son nom d’utilisateur GitHub et le courriel de la personne superviseure
+- Raison de la suppression, de l’archivage ou de la dépréciation
 
----
-
-### Migration d’un dépôt existant
-
-Pour migrer un dépôt GitHub externe vers l’organisation AAC:
-
-- Cloner ou sauvegarder votre dépôt existant
-- Suivre le processus standard de demande pour [créer un nouveau dépôt](#faire-une-demande-dun-nouveau-dépôt-github)
-- Pousser votre code local vers le nouveau dépôt
+Toutes les demandes seront examinées par l’équipe d’administration `AAFC-Bioinfo-AAC`. Pour une suppression, une confirmation sera requise de la part de l’administrateur·trice du dépôt **et** de la personne superviseure. Les actions d’archivage et de dépréciation seront effectuées à la suite d’un examen interne et d’une notification.
 
 ---
 
-### Gestion de l’accès d'un dépôt
+### 2. Gestion des comptes
 
-- Les administrateurs d'un dépôt peuvent eux-mêmes ajouter des membres et attribuer des rôles.
-- Pour modifier l’accès ou les rôles, soumettre un billet via MyITCentreTI:  
+#### 2.1. Ajouter un nouvel utilisateur
 
-  ```text
-  Science TI Support > Catalogue du code scientifique > Gestion des comptes
-  ```
+Pour intégrer un nouveau ou une nouvelle contributrice à `AAFC-Bioinfo-AAC`, cliquez sur **Ajouter un nouvel utilisateur** et fournissez :
 
-- **Seuls les propriétaires de l’organisation GitHub d'AAC** peuvent créer et supprimer des dépôts ou changer les paramètres globaux.
+- Le nom de la personne, son courriel officiel, son nom d’utilisateur GitHub et le courriel de la personne superviseure
+- Le nom du (des) dépôt(s) auquel/auxquels l’ajouter et le rôle souhaité (admin, maintain, write ou read; voir le [guide des permissions par rôle](https://docs.github.com/fr/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role))
 
-- Pour demander la suppression, l’archivage ou la dépréciation d’un dépôt, soumettre un billet à Mon ITCentreTI:  
-  
-  ```text
-  Support informatique scientifique > Science Code Catalogue > Gestion de dépôt
-  ```
+Une fois approuvée, la personne sera ajoutée à l’organisation et se verra attribuer les rôles demandés dans les dépôts concernés.
+
+#### 2.2. Supprimer un utilisateur
+
+Pour retirer une personne de l’organisation ou d’un ou plusieurs dépôts, cliquez sur **Supprimer un utilisateur** et fournissez toutes les informations demandées à la section 2.1 ci‑dessus, ainsi que la raison du retrait.
+
+La demande sera examinée et traitée par l’équipe d’administration. Une confirmation sera envoyée à l’administrateur·trice du dépôt et à la personne superviseure.
+
+#### 2.3. Modifier les privilèges d’un utilisateur
+
+Pour modifier le rôle d’une personne dans un dépôt, cliquez sur **Modifier les privilèges d’un utilisateur** et fournissez toutes les informations demandées à la section 2.1 ci‑dessus.
+
+Les changements de rôle seront examinés afin d’assurer leur conformité aux politiques de l’organisation.
 
 ---
 
-### Contributions aux dépôts existants
+### 3. Formation
 
-#### Dépôts publics
+Des séances de formation et du matériel d’intégration sont offerts pour aider les utilisateurs et utilisatrices à gérer efficacement les dépôts et à contribuer aux projets. Ceux‑ci incluent :
 
-- Utiliser la fonction *Issues* de GitHub pour suggérer des fonctionnalités, signaler des bogues ou entamer des discussions.
-- Dupliquer (*fork*) le dépôt, apporter des modifications puis utiliser la fonction *Pull requests* selon les directives de `CONTRIBUTING.md`.
+- Tutoriels GitHub d’introduction pour les nouveaux et nouvelles
+- Bonnes pratiques pour la collaboration et le contrôle de version
+- Lignes directrices pour la configuration, la documentation et la publication d’un dépôt
+- Formation sur la sécurité et la conformité pour les contributions *open source*
 
-#### Dépôts privés
+Pour demander une formation ou accéder au matériel, communiquez avec l’équipe d’administration `AAFC-Bioinfo-AAC` au moyen de cette option.
 
-- Se référer à la liste interne des [Dépôts de code privés](https://001gc.sharepoint.com/:u:/r/sites/42732/SitePages/abcc-private-repos.aspx?csf=1&web=1&e=jXxrXb).
-- Contacter le propriétaire/gestionnaire du dépôt pour un accès ou une collaboration.
+---
+
+### 4. Autres
+
+Pour toute demande qui n’est pas couverte par les catégories ci‑dessus — par exemple :
+
+- Soutien à la migration de dépôts
+- Automatisation personnalisée ou configuration CI/CD
+- Intégration avec des outils ou plateformes externes
+- Dépannage technique
+
+Veuillez soumettre ici une demande en décrivant clairement vos besoins. L’équipe de soutien évaluera la demande et assurera le suivi en conséquence.
 
 ---
 
 ## Crédits
 
-Développé et maintenu par l’équipe ABCC.
+Ce guide a été élaboré par l’**équipe du projet ABCC**.
 
-Ce projet contient du contenu partiellement généré par des modèles d’IA. Tout le matériel généré par IA a été révisé et validé pour l’exactitude par l’équipe du projet.
+🤖 Ce projet comprend du contenu généré avec l’aide de modèles d’IA. Tout le matériel généré par IA a été relu, vérifié et, au besoin, peaufiné par l’équipe de projet afin d’en assurer l’exactitude.
+
+---
+
+## Citation
+
+Pour citer ce projet, cliquez sur le bouton **`Cite this repository`** dans la barre latérale de droite.
 
 ---
 
 ## Contribution
 
-Si vous souhaitez contribuer à ce projet, veuillez consulter les directives dans [CONTRIBUTING.md](CONTRIBUTING.md) et vous assurer de respecter notre [Code de conduite](CODE_OF_CONDUCT.md) afin de promouvoir un environnement respectueux et inclusif.
+Les contributions sont les bienvenues ! Veuillez consulter les lignes directrices dans [CONTRIBUTING.md](CONTRIBUTING.md) et vous assurer de respecter notre [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) afin de favoriser un milieu respectueux et inclusif.
+
+---
+
+## Sécurité
+
+⚠️ Ne publiez **aucun** problème de sécurité dans le dépôt public ! Veuillez les signaler selon les indications de [SECURITY.md](SECURITY.md).
 
 ---
 
 ## Licence
 
-Ce projet est distribué sous la licence MIT. Pour les détails complets et droits d’auteur, voir le fichier [LICENSE](LICENSE).
+Consultez le fichier [LICENSE](LICENSE) pour plus de détails. Visitez [LicenseHub](https://licensehub.org) ou [tl;drLegal](https://www.tldrlegal.com/) pour une présentation en langage clair de cette licence.
+
+**Droit d’auteur (c)** Sa Majesté le Roi du chef du Canada, représenté par le ministre de l’Agriculture et de l’Agroalimentaire, 2025.
 
 ---
 
-## Besoin d’aide?
+## Besoin d’aide ?
 
-- **Questions générales**: envoyez un courriel au [RSRB](mailto:aafc.bioinfosupport.aac@agr.gc.ca) avec l’objet: `AAFC-Bioinfo-AAC: <résumé>`
-- **Signaler des problèmes de sécurité**: envoyez un courriel au [BICoE](mailto:aafc.bice-ceib.aac@agr.gc.ca). 🚫 Ne publiez pas d’informations sensibles publiquement.
+Écrivez à [BRSN](mailto:aafc.bioinfosupport.aac@agr.gc.ca) avec l’objet : `AAFC-Bioinfo-AAC: <summary>`
