@@ -4,6 +4,8 @@
 [![FR](https://img.shields.io/badge/lang-FR-yellow.svg)](README_FR.md)
 [![EN](https://img.shields.io/badge/lang-EN-blue.svg)](https://github.com/AAFC-Bioinfo-AAC/quick-start-guide)
 
+> ℹ️ *La traduction française est en cours de révision.*
+
 <!-- omit in toc -->
 ## À propos
 
