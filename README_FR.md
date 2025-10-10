@@ -7,7 +7,7 @@
 <!-- omit in toc -->
 ## À propos
 
-Ce guide décrit les services disponibles et les processus recommandés pour gérer et contribuer aux dépôts de code bio-informatique au sein de l’organisation GitHub **AAFC-Bioinfo-AAC**, associée au projet *Répertoire de Codes Bioinformatique d'AAC (RCBA).
+Ce guide décrit les services disponibles et les processus recommandés pour gérer et contribuer aux dépôts de code bio-informatique au sein de l’organisation GitHub **AAFC-Bioinfo-AAC**, associée au projet de Codes Bioinformatique d'AAC (RCBA).
 
 <!-- omit in toc -->
 ## Table des matières
@@ -42,9 +42,9 @@ Les services suivants sont disponibles via `Mon IT Centre TI` sous la catégorie
 
 Pour démarrer un nouveau projet ou migrer un projet existant vers l’organisation GitHub `AAFC-Bioinfo-AAC`, cliquez sur **Créer des dépôts privés** et remplissez le formulaire avec :
 
-- Un nom du répertoire conforme aux [conventions de nommage des dépôts AAFC-Bioinfo-AAC](./docs/repo-naming-style-guide.md).
-- Une brève description bilingue du répertoire (anglais et français)
-- Le nom de l’administrateur ou de l’administratrice du répertoire, son courriel officiel, son nom d’utilisateur GitHub, ainsi que le courriel du superviseur
+- Un nom du dépôt conforme aux [conventions de nommage des dépôts AAFC-Bioinfo-AAC](./docs/repo-naming-style-guide.md).
+- Une brève description bilingue (anglais et français)
+- Le nom de l’administrateur ou de l’administratrice du dépôt, son courriel officiel, son nom d’utilisateur GitHub, ainsi que le courriel du superviseur
 - Le cas échéant, la liste des autres utilisateurs de l’équipe avec leurs noms, courriels, noms d’utilisateur GitHub et rôles (administration, gestion, écriture ou lecture ; voir le [guide des permissions par rôle](https://docs.github.com/fr/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization))
 
 Remarques importantes :
@@ -120,7 +120,6 @@ Des séances de formation et du matériel d’intégration sont offerts pour aid
 - Lignes directrices pour la configuration, la documentation et la publication d’un dépôt
 - Formation sur la sécurité et la conformité pour les contributions au code source ouvert 
 
-
 Pour demander une formation ou accéder au matériel, communiquez avec l’équipe d’administration `AAFC-Bioinfo-AAC` au moyen de cette option.
 
 ---
@@ -160,7 +159,7 @@ Les contributions sont les bienvenues ! Veuillez consulter les lignes directrice
 
 ## Sécurité
 
-⚠️ Ne publiez aucun problème de sécurité sur le répertoire public! Veuillez le signaler comme décrit dans [SECURITY.md](SECURITY.md).
+⚠️ Ne publiez aucun problème de sécurité sur le dépôt public! Veuillez le signaler comme décrit dans [SECURITY.md](SECURITY.md).
 
 ---
 
