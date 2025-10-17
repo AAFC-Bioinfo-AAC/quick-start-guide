@@ -66,7 +66,8 @@ To request that a repository be made public, click **Publish a repository** and 
 
 - Repository name
 - Repository admin's name, official email, GitHub username and supervisor's email
-- A completed **Open-Source Development or Publication Approval Form** (link to form is provided in the ticket), signed by the Associate Director of your centre
+- A completed **Open-Source Development or Publication Approval Form** signed by the Associate Director of your Centre  
+  *(Download the form as a Word document from the link provided in the ticket)*
 
 After a successful security review and ISB Director approval, the repository will be published.
 
