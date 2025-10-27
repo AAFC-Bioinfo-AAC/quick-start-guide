@@ -119,7 +119,7 @@ Des séances de formation et du matériel d’intégration sont offerts pour aid
 - Tutoriels GitHub d’introduction pour les nouveaux utilisateurs
 - Bonnes pratiques pour la collaboration et le contrôle de version
 - Lignes directrices pour la configuration, la documentation et la publication d’un dépôt
-- Formation sur la sécurité et la conformité pour les contributions au code source ouvert 
+- Formation sur la sécurité et la conformité pour les contributions au code source ouvert
 
 Pour demander une formation ou accéder au matériel, communiquez avec l’équipe d’administration `AAFC-Bioinfo-AAC` au moyen de cette option.
 
