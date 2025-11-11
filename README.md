@@ -13,7 +13,7 @@
   - [Set up Git and GitHub](#set-up-git-and-github)
   - [Request membership access](#request-membership-access)
   - [Create or migrate a project](#create-or-migrate-a-project)
-- [Develop the project](#develop-the-project)
+  - [Develop the project](#develop-the-project)
   - [Publish a project](#publish-a-project)
 - [Acknowledgements](#acknowledgements)
 - [Contribution](#contribution)
@@ -55,7 +55,7 @@ New users may be added to the project directly by the project admin. However, if
 
 ---
 
-## Develop the project
+### Develop the project
 
 Follow [coding best practices](./docs/coding-best-practices.md) and ensure no sensitive, confidential, or proprietary data should are uploaded. Some learning resources:
 
