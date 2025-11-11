@@ -33,6 +33,8 @@ Service requests and updates are handled through AAFC’s internal IT ticketing 
 
 See [AAFC-Bioinfo-AAC GitHub Services Guide](./docs/aafc-bioinfo-aac-github-services-EN.md) for a full list of service requests and details on information to include with each request.
 
+--- 
+
 ## Getting started
 
 ### Set up Git and GitHub
@@ -52,8 +54,6 @@ To join as a member of **AAFC-Bioinfo-AAC**, submit an IT ticket under **Account
 To start a project afresh on **AAFC-Bioinfo-AAC** or to migrate an existing project from elsewhere, submit an IT ticket under **Repository Management → Create a new private repository**, providing [details](./docs/aafc-bioinfo-aac-github-services-EN.md#create-a-new-private-repository) such as a project name ([see naming conventions](./docs/repo-naming-style-guide.md)) and project admin. A new private repo will be created and initialised with a [template](https://github.com/AAFC-Bioinfo-AAC/template-repository). The template may be modified to suit your requirements for the new or migrated project while keeping the content in the required sections.
 
 New users may be added to the project directly by the project admin. However, if that user is an AAFC employee and not already a member of the org, it is best that the user submit an IT ticket to be added to the project. This will ensure that the user does not appear as an external collaborator.
-
----
 
 ### Develop the project
 
@@ -80,6 +80,8 @@ For best practices, ensure the following files included in the template repo (wi
 This guide was developed by the **ABCC project team**.
 
 🤖 This project includes content generated with the assistance of AI models. All AI-generated material has been reviewed, verified, and, where necessary, refined by the project team to ensure accuracy.
+
+---
 
 ## Contribution
 
