@@ -59,6 +59,7 @@ Follow [coding best practices](./docs/coding-best-practices.md) and ensure no se
 
 - [Learn Git](https://git-scm.com/learn)
 - [Get started with GitHub](https://docs.github.com/en/get-started)
+- [Git tutorial by w3schools](https://www.w3schools.com/git/default.asp)
 
 ### Publish a repository
 
