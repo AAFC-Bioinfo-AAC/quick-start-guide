@@ -11,10 +11,10 @@
 - [About](#about)
 - [Getting started](#getting-started)
   - [Set up Git and GitHub](#set-up-git-and-github)
-  - [Become a member](#become-a-member)
+  - [Request membership access](#request-membership-access)
   - [Create or migrate a project](#create-or-migrate-a-project)
 - [Develop the project](#develop-the-project)
-  - [Publish a repository](#publish-a-repository)
+  - [Publish a project](#publish-a-project)
 - [Acknowledgements](#acknowledgements)
 - [Contribution](#contribution)
 - [Security](#security)
@@ -37,13 +37,15 @@ See [AAFC-Bioinfo-AAC GitHub Services Guide](./docs/aafc-bioinfo-aac-github-serv
 
 ### Set up Git and GitHub
 
-A local Git installation (request via [My IT Centre TI → Other Software Requests](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHUZDIMJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=)) and proper [GitHub authentication](https://docs.github.com/en/authentication) setup will be required to interact with Github through any method (e.g., using Git from the command line, GitHub CLI, IDE integrations, or GitHub Desktop) other than the web interface.
+A local Git installation (request via [My IT Centre TI → Other Software Requests](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHUZDIMJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=)), a GitHub account and proper [GitHub authentication](https://docs.github.com/en/authentication) setup will be required to interact with Github through any method (e.g., using Git from the command line, GitHub CLI, IDE integrations, or GitHub Desktop) other than the web interface.
 
-If you also use GitHub for personal projects, consider creating a separate account for official work. According to the [Guide for Publishing Open Source Code](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html#:~:text=of%20your%20code.-,Identify%20as%20an%20employee%20of%20the%20Government%20of%20Canada,-Employees%20should%20use) employees should use their full name and Government of Canada email address for all code contributions to public repositories while acting within the scope of their duties or employment.
+If you don’t already have one, [create a GitHub account](https://github.com/signup). If you have one that you use primarily for personal projects, consider creating a separate account for official work. According to the [Guide for Publishing Open Source Code](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html#:~:text=of%20your%20code.-,Identify%20as%20an%20employee%20of%20the%20Government%20of%20Canada,-Employees%20should%20use) employees should use their full name and Government of Canada email address for all code contributions to public repositories while acting within the scope of their duties or employment.
 
-### Become a member
+💡 **Tip:** Use a clear professional username, e.g., `firstname-lastname-aafc`.
 
-To join as a member of **AAFC-Bioinfo-AAC**, submit an IT ticket under **Account Management → Add new user**, providing [details](./docs/aafc-bioinfo-aac-github-services-EN.md#add-new-user) such as your GitHub username and names of any existing repos you wish to be added to.
+### Request membership access
+
+To join as a member of **AAFC-Bioinfo-AAC**, submit an IT ticket under **Account Management → Add new user**, providing [details](./docs/aafc-bioinfo-aac-github-services-EN.md#add-new-user) such as your GitHub username and names of any existing repos you wish to be added to. Once approved, you’ll receive an invitation to join the **AAFC-Bioinfo-AAC** GitHub organization.
 
 ### Create or migrate a project
 
@@ -61,9 +63,9 @@ Follow [coding best practices](./docs/coding-best-practices.md) and ensure no se
 - [Get started with GitHub](https://docs.github.com/en/get-started)
 - [Git tutorial by w3schools](https://www.w3schools.com/git/default.asp)
 
-### Publish a repository
+### Publish a project
 
-When ready to publish a repo, submit an IT ticket under **Repository Management → Publish a repository**, providing [details](./docs/aafc-bioinfo-aac-github-services-EN.md#publish-a-repository-make-public) requested and including a completed [Open-Source Development or Publication Approval Form](https://001gc.sharepoint.com/:w:/r/sites/50055/pap1/Open%20Source%20Software/STB%20Open%20source%20code%20approval%20form%20-%20EN.docx) (internal access only). The repo will be published following an internal security review process.
+When ready to publish a project, submit an IT ticket under **Repository Management → Publish a repository**, providing [details](./docs/aafc-bioinfo-aac-github-services-EN.md#publish-a-repository-make-public) requested and including a completed [Open-Source Development or Publication Approval Form](https://001gc.sharepoint.com/:w:/r/sites/50055/pap1/Open%20Source%20Software/STB%20Open%20source%20code%20approval%20form%20-%20EN.docx) (internal access only). The repo will be published following an internal security review process.
 
 For best practices, ensure the following files included in the template repo (with instructions on how to fill) are completed/adapted prior to requesting publication:
 
