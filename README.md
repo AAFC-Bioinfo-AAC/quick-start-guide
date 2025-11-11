@@ -10,12 +10,11 @@
 
 - [About](#about)
 - [Getting started](#getting-started)
+  - [Set up Git and GitHub](#set-up-git-and-github)
   - [Become a member](#become-a-member)
   - [Create or migrate a project](#create-or-migrate-a-project)
-  - [Set up Git and GitHub](#set-up-git-and-github)
+- [Develop the project](#develop-the-project)
   - [Publish a repository](#publish-a-repository)
-- [Coding best practices](#coding-best-practices)
-- [Learning Resources](#learning-resources)
 - [Acknowledgements](#acknowledgements)
 - [Contribution](#contribution)
 - [Security](#security)
@@ -32,25 +31,34 @@ Membership and access to services on **AAFC-Bioinfo-AAC** is limited to AAFC emp
 
 Service requests and updates are handled through AAFC’s internal IT ticketing system: [*My IT Centre TI → Science IT Support → AAFC Bioinformatics Code Catalogue*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=)
 
-See [**AAFC-Bioinfo-AAC GitHub Services Guide**](./docs/aafc-bioinfo-aac-github-services-EN.md) for a full list of service requests and details on information to include with each request.
+See [AAFC-Bioinfo-AAC GitHub Services Guide](./docs/aafc-bioinfo-aac-github-services-EN.md) for a full list of service requests and details on information to include with each request.
 
 ## Getting started
+
+### Set up Git and GitHub
+
+A local Git installation (request via [My IT Centre TI → Other Software Requests](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHUZDIMJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=)) and proper [GitHub authentication](https://docs.github.com/en/authentication) setup will be required to interact with Github through any method (e.g., using Git from the command line, GitHub CLI, IDE integrations, or GitHub Desktop) other than the web interface.
+
+If you also use GitHub for personal projects, consider creating a separate account for official work. According to the [Guide for Publishing Open Source Code](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html#:~:text=of%20your%20code.-,Identify%20as%20an%20employee%20of%20the%20Government%20of%20Canada,-Employees%20should%20use) employees should use their full name and Government of Canada email address for all code contributions to public repositories while acting within the scope of their duties or employment.
 
 ### Become a member
 
 To join as a member of **AAFC-Bioinfo-AAC**, submit an IT ticket under **Account Management → Add new user**, providing [details](./docs/aafc-bioinfo-aac-github-services-EN.md#add-new-user) such as your GitHub username and names of any existing repos you wish to be added to.
 
-If you also use GitHub for personal projects, consider creating a separate account for official work. According to the [Guide for Publishing Open Source Code](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html#:~:text=of%20your%20code.-,Identify%20as%20an%20employee%20of%20the%20Government%20of%20Canada,-Employees%20should%20use) employees should use their full name and Government of Canada email address for all code contributions to public repositories while acting within the scope of their duties or employment.
-
 ### Create or migrate a project
 
-To start a project afresh on **AAFC-Bioinfo-AAC** or to migrate an existing project from elsewhere, submit an IT ticket under **Repository Management → Create a new private repository**, providing [details](./docs/aafc-bioinfo-aac-github-services-EN.md#create-a-new-private-repository) such as a project name ([see naming conventions](./docs/repo-naming-style-guide.md)) and project admin. A new private repo will be created and initialised with a [template](../template-repository/). The template may be modified to suit your requirements for the new or migrated project while keeping the content in the required sections.
+To start a project afresh on **AAFC-Bioinfo-AAC** or to migrate an existing project from elsewhere, submit an IT ticket under **Repository Management → Create a new private repository**, providing [details](./docs/aafc-bioinfo-aac-github-services-EN.md#create-a-new-private-repository) such as a project name ([see naming conventions](./docs/repo-naming-style-guide.md)) and project admin. A new private repo will be created and initialised with a [template](https://github.com/AAFC-Bioinfo-AAC/template-repository). The template may be modified to suit your requirements for the new or migrated project while keeping the content in the required sections.
 
 New users may be added to the project directly by the project admin. However, if that user is an AAFC employee and not already a member of the org, it is best that the user submit an IT ticket to be added to the project. This will ensure that the user does not appear as an external collaborator.
 
-### Set up Git and GitHub
+---
 
-A local Git installation (available through [My IT Centre TI → Other Software Requests](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHUZDIMJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=)) and proper [authentication](https://docs.github.com/en/authentication) setup will be required to interact with Github through any method (e.g., using Git from the command line, GitHub CLI, IDE integrations, or GitHub Desktop) other than the web interface.
+## Develop the project
+
+Follow [coding best practices](./docs/coding-best-practices.md) and ensure no sensitive, confidential, or proprietary data should are uploaded. Some learning resources:
+
+- [Learn Git](https://git-scm.com/learn)
+- [Get started with GitHub](https://docs.github.com/en/get-started)
 
 ### Publish a repository
 
@@ -61,20 +69,6 @@ For best practices, ensure the following files included in the template repo (wi
 - LICENSE: default MIT is included in the template. An interactive R Shiny application [OSSLicensR](https://websphn001.agr.gc.ca/OSSLicensR/) (internal access only) is available to help select an appropriate open-source or source-available license for their software project.
 - dockstore.yml: Applies only for workflows in CWL, WDL, Nextflow, Snakemake or Galaxy. Delete if not.
 - CITATION.cff
-
----
-
-## Coding best practices
-
-- No sensitive, confidential, or proprietary data should be uploaded.  
-- Follow [coding best practices](./docs/coding-best-practices.md).
-
----
-
-## Learning Resources
-
-- [Learn Git](https://git-scm.com/learn)
-- [Get started with GitHub](https://docs.github.com/en/get-started)
 
 ---
 
