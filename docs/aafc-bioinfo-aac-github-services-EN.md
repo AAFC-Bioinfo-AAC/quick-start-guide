@@ -81,10 +81,11 @@ All requests will be reviewed by the `AAFC-Bioinfo-AAC` admin team. For deletion
 
 ### Add New User
 
-To onboard a new contributor to `AAFC-Bioinfo-AAC`, click **Add new user** and provide:
+To join `AAFC-Bioinfo-AAC` as a new member or to be added to an existing repository, click **Add new user** and provide:
 
 - User’s name, official email, GitHub username, and supervisor’s email
 - Name of repository (one or more) to be added to and role (admin, maintain, write, or read; refer [role permissions guide](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role))
+  - For new member requests, indicate "NA" under `The repository name(s)` and `The user's role` fields and "New member" under `Additional Information` field.
 
 Once approved, the user will be added to the organization and will be assigned roles in repositories requested.
 
