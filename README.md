@@ -33,7 +33,7 @@ Service requests and updates are handled through AAFC’s internal IT ticketing 
 
 See [AAFC-Bioinfo-AAC GitHub Services Guide](./docs/aafc-bioinfo-aac-github-services-EN.md) for a full list of service requests and details on information to include with each request.
 
---- 
+---
 
 ## Getting started
 
@@ -51,11 +51,13 @@ To join as a member of **AAFC-Bioinfo-AAC**, submit an IT ticket under **Account
 
 ### Create or migrate a project
 
-To start a project afresh on **AAFC-Bioinfo-AAC** or to migrate an existing project from elsewhere, submit an IT ticket under **Repository Management → Create a new private repository**, providing [details](./docs/aafc-bioinfo-aac-github-services-EN.md#create-a-new-private-repository) such as a project name ([see naming conventions](./docs/repo-naming-style-guide.md)) and project admin. A new private repo will be created and initialised with a [template](https://github.com/AAFC-Bioinfo-AAC/template-repository). The template may be modified to suit your requirements for the new or migrated project while keeping the content in the required sections.
-
-New users may be added to the project directly by the project admin. However, if that user is an AAFC employee and not already a member of the org, it is best that the user submit an IT ticket to be added to the project. This will ensure that the user does not appear as an external collaborator.
+To start a project afresh on **AAFC-Bioinfo-AAC** or to migrate an existing project from elsewhere, submit an IT ticket under **Repository Management → Create a new private repository**, providing [details](./docs/aafc-bioinfo-aac-github-services-EN.md#create-a-new-private-repository) such as a project name ([see naming conventions](./docs/repo-naming-style-guide.md)) and project admin. A new private repo will be created and initialized with a [template](https://github.com/AAFC-Bioinfo-AAC/template-repository).
 
 ### Develop the project
+
+The template may be modified to suit your requirements for the new or migrated project while keeping the content in the required sections.
+
+New users may be added to the project directly by the project admin. However, if that user is an AAFC employee and not already a member of the org, it is best that the user submit an IT ticket to be added to the project. This will ensure that the user does not appear as an external collaborator.
 
 Follow [coding best practices](./docs/coding-best-practices.md) and ensure no sensitive, confidential, or proprietary data should are uploaded. Some learning resources:
 
