@@ -1,0 +1,19 @@
+name: Run ScanCode
+
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  scancode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: scancode-inputs
+
+      - uses: aboutcode-org/scancode-action@main
+        with:
+          pipelines: "scan_codebase"
+          output-formats: "json xlsx spdx cyclonedx"

@@ -1,0 +1,108 @@
+# .gitignore
+# This file tells Git which files and directories to ignore when tracking changes in this repository.
+# Ignored files will not be included in commits or pushed to the remote repository.
+
+# Basic Rules:
+# - Lines starting with "#" are comments and ignored by Git.
+# - To ignore a file, write its name (e.g., "example.txt").
+# - To ignore all files in a directory, use a trailing slash (e.g., "logs/").
+# - Use "*" as a wildcard to match multiple files (e.g., "*.log" ignores all .log files).
+# - To un-ignore a specific file in an ignored directory, use "!" (e.g., "!important.txt").
+
+# This .gitignore template is language-agnostic and safe for most projects, while still covering 
+# common OS, editor, and tooling artifacts. Feel free to customize it further based on your project's
+# specific needs.
+
+# ============================
+# OS Files
+# ============================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*.swp
+*.swo
+
+# ============================
+# Editors and IDEs
+# ============================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains (PyCharm, IntelliJ, etc.)
+.idea/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# ============================
+# Dependencies (generic)
+# ============================
+node_modules/
+vendor/
+_packages/
+
+# ============================
+# Build & Distribution Artifacts
+# ============================
+dist/
+build/
+out/
+bin/
+obj/
+target/
+*.log
+
+# ============================
+# Temporary & Backup Files
+# ============================
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.cache
+.cache/
+tmp/
+temp/
+
+# ============================
+# Environment / Secrets
+# (Users must create their own)
+# ============================
+.env
+.env.*
+*.secret
+*.key
+
+# ============================
+# Archives
+# ============================
+*.zip
+*.tar
+*.gz
+*.7z
+
+# ============================
+# Misc
+# ============================
+*.lock
+*.pid
