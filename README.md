@@ -10,10 +10,11 @@
 
 - [About](#about)
 - [Getting started](#getting-started)
+  - [Prerequisites](#prerequisites)
   - [Become a member](#become-a-member)
-  - [Create a new project](#create-a-new-project)
-  - [Migrate an existing project](#migrate-an-existing-project)
-  - [Develop the project locally](#develop-the-project-locally)
+  - [Create a new GitHub repository](#create-a-new-github-repository)
+  - [Migrate an existing repo](#migrate-an-existing-repo)
+  - [Develop the project](#develop-the-project)
   - [Publish a project](#publish-a-project)
     - [Before requesting publication](#before-requesting-publication)
     - [After Publication](#after-publication)
@@ -40,43 +41,48 @@ Guidance on the information required for each type of service request can be fou
 
 ## Getting started
 
-### Become a member
+### Prerequisites
 
-To join the *AAFC-Bioinfo-AAC* GitHub organization, submit an IT ticket through [*My IT Centre TI → Science IT Support → AAFC Bioinformatics Code Catalogue → Account Management → Add new user*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
-
-Include the [required information](./docs/aafc-bioinfo-aac-github-services-EN.md#add-new-user) such as your GitHub account username ([create one here](https://github.com/signup) if you don’t already have) and names of any existing repositories in the organization you need access to. Once approved, you’ll receive an invitation the organization.
+- Git installation: request via [My IT Centre TI → Other Software Requests](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHUZDIMJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=)
+- GitHub account: [Create an account](https://github.com/signup) if you don’t already have.
+- GitHub authentication: Setup [account authentication](https://docs.github.com/en/authentication) to interact with Github through any method other than the web interface, e.g., using Git from the command line, GitHub CLI, IDE integrations, or GitHub Desktop
 
 > [!TIP]
 > If your existing GitHub account is primarily used for personal projects, consider creating a separate one for official work, choosing a clear, professional GitHub username, such as `firstname-lastname-aafc`. According to the [Guide for Publishing Open Source Code](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html#:~:text=of%20your%20code.-,Identify%20as%20an%20employee%20of%20the%20Government%20of%20Canada,-Employees%20should%20use) employees should use their full name and Government of Canada email address for all code contributions to public repositories while acting within the scope of their duties or employment.
 
 ---
 
-### Create a new project
+### Become a member
 
-To start a new project, submit an IT ticket through [*My IT Centre TI → Science IT Support → AAFC Bioinformatics Code Catalogue → Repository Management → Create a new private repository*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=), providing [required information](./docs/aafc-bioinfo-aac-github-services-EN.md#create-a-new-private-repository) such as a project name ([see naming conventions](./docs/repo-naming-style-guide.md)) and project admin. A new private repository will then be created and initialized using the standard [*AAFC-Bioinfo-AAC* template](https://github.com/AAFC-Bioinfo-AAC/template-repository).
+To join the *AAFC-Bioinfo-AAC* GitHub organization, submit an IT ticket through [*My IT Centre TI → Science IT Support → AAFC Bioinformatics Code Catalogue → Account Management → Add new user*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
 
-New users may be added to the project directly by the project admin. However, if that user is an AAFC employee and not already a member of the org, it is best that the user submit an IT ticket to be added to the project. This will ensure that the user does not appear as an external collaborator.
-
----
-
-### Migrate an existing project
-
-Follow the process above to create a new project and the migrate your existing project there, either by yourself, or via an IT ticket through [*My IT Centre TI → Science IT Support → AAFC Bioinformatics Code Catalogue → Other*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
+Include the [required information](./docs/aafc-bioinfo-aac-github-services-EN.md#add-new-user) such as your GitHub account username and names of any existing repositories in the organization you need access to. Once approved, you’ll receive an invitation the organization.
 
 ---
 
-### Develop the project locally
+### Create a new GitHub repository
 
-Follow the steps described in this [document](./docs/developing-locally.md) to clone the project to your local machine, make changes safely, and contribute via pull requests. The template may be modified to suit your requirements for the new or migrated project while keeping the content in the required sections. Ensure no sensitive, confidential, or proprietary data are uploaded and follow [coding best practices](./docs/coding-best-practices.md).
+To start a new project, submit an IT ticket through [*My IT Centre TI → Science IT Support → AAFC Bioinformatics Code Catalogue → Repository Management → Create a new private repository*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=), providing [required information](./docs/aafc-bioinfo-aac-github-services-EN.md#create-a-new-private-repository) such as a repository name ([see naming conventions](./docs/repo-naming-style-guide.md)) and the admin responsible for that repo. A new private repository will then be created and initialized using the standard [*AAFC-Bioinfo-AAC* template](https://github.com/AAFC-Bioinfo-AAC/template-repository). The template may be modified to suit your project's requirements while keeping the content in the sections marked as required.
 
-**Prerequisites:**
+The repo admin may add new users to the repo directly. However, if that user is an AAFC employee and not already a member of `AAFC-Bioinfo-AAC`, it is best that the user submit an IT ticket to become a member and then be added to the project. This will ensure that the user does not appear as an external collaborator.
 
-- **Git** installation: request via [My IT Centre TI → Other Software Requests](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHUZDIMJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=)
-- **GitHub account** with access to the repository.
-- [**GitHub authentication**](https://docs.github.com/en/authentication): required to interact with Github through any method other than the web interface, e.g., using Git from the command line, GitHub CLI, IDE integrations, or GitHub Desktop
+---
+
+### Migrate an existing repo
+
+Follow the process above to create a new repo and the migrate your existing repo there, either by yourself, or via an IT ticket through [*My IT Centre TI → Science IT Support → AAFC Bioinformatics Code Catalogue → Other*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
+
+---
+
+### Develop the project
+
+Clone (download) the remote GitHub repo to your local computer and follow standard Git development practices (see [Learning Resources](#learning-resources)):
+*Pull → Branch → Change → Commit → Push → PR → Review → Merge → Update → Repeat*
+
+Follow [coding best practices](./docs/coding-best-practices.md) and ensure no sensitive, confidential, or proprietary data is ever committed or pushed to the remote repository.  
 
 > [!IMPORTANT]
-> Do **not** clone/place your working copy inside OneDrive synced folders. Keep repos in a sync excluded folder within OneDrive or a folder outside of OneDrive like `C:\Users\<username>` or within your WSL home (`/home/<username>`) to avoid corruption and performance issues.
+> **Do not** clone or place your working copy inside a OneDrive-synced folder. To avoid corruption and performance issues, always store repos in a OneDrive-excluded folder or outside OneDrive entirely. For example, in a folder within `C:\Users\<username>` or the WSL directory (`/home/<username>`).
 
 ---
 
@@ -117,7 +123,7 @@ Also ensure the following files included in the the standard [*AAFC-Bioinfo-AAC*
    - Keep documentation and dependencies up to date.  
    - Archive or deprecate the repository if it becomes inactive, following the [repository lifecycle guidance](./docs/aafc-bioinfo-aac-github-services-EN.md#archive-or-deprecate-a-repository).
 
-> [!TIP]  
+> [!TIP]
 > After publication, monitor repository insights such as **traffic**, **forks**, and **citations** to measure engagement and plan future improvements.  
 > Consider adding a **CHANGELOG.md** to document major updates over time.
 
