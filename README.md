@@ -17,6 +17,7 @@
   - [Publish a project](#publish-a-project)
     - [Before requesting publication](#before-requesting-publication)
     - [After Publication](#after-publication)
+- [Learning resources](#learning-resources)
 - [Acknowledgements](#acknowledgements)
 - [Contribution](#contribution)
 - [Security](#security)
@@ -68,21 +69,14 @@ Follow the process above to create a new project and the migrate your existing p
 
 Follow the steps described in this [document](./docs/developing-locally.md) to clone the project to your local machine, make changes safely, and contribute via pull requests. The template may be modified to suit your requirements for the new or migrated project while keeping the content in the required sections. Ensure no sensitive, confidential, or proprietary data are uploaded and follow [coding best practices](./docs/coding-best-practices.md).
 
-Some learning resources:
+**Prerequisites:**
 
-- [Learn Git](https://git-scm.com/learn)
-- [Get started with GitHub](https://docs.github.com/en/get-started)
-- [Git tutorial by w3schools](https://www.w3schools.com/git/default.asp)
-
-Prerequisites:
-
-- **Git** installation (request via [My IT Centre TI → Other Software Requests](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHUZDIMJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=))
+- **Git** installation: request via [My IT Centre TI → Other Software Requests](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHUZDIMJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=)
 - **GitHub account** with access to the repository.
-- **Authentication** set up (HTTPS with Personal Access Token, or SSH keys). [GitHub authentication](https://docs.github.com/en/authentication) will be required to interact with Github through any method (e.g., using Git from the command line, GitHub CLI, IDE integrations, or GitHub Desktop) other than the web interface.
-- **Language runtime/tools** for this project (e.g., Python/Node/Java) and any package manager (pip/npm/maven/etc.).
+- [**GitHub authentication**](https://docs.github.com/en/authentication): required to interact with Github through any method other than the web interface, e.g., using Git from the command line, GitHub CLI, IDE integrations, or GitHub Desktop
 
 > [!IMPORTANT]
-> Do **not** clone/place your working copy inside OneDrive sync folders. Keep repos in a sync excluded folder within OneDrive or a folder outside of OneDrive like `C:\Users\<username>` (or your WSL home) to avoid corruption and performance issues.
+> Do **not** clone/place your working copy inside OneDrive synced folders. Keep repos in a sync excluded folder within OneDrive or a folder outside of OneDrive like `C:\Users\<username>` or within your WSL home (`/home/<username>`) to avoid corruption and performance issues.
 
 ---
 
@@ -94,20 +88,17 @@ When your project is ready to be made public, submit an IT ticket through [*My I
 
 Review and update your `README.md` and project documentation before publication to ensure it accurately reflects the current state and purpose of your project.
 
-Also ensure the following files included in the the standard [*AAFC-Bioinfo-AAC* template](https://github.com/AAFC-Bioinfo-AAC/template-repository) are completed or adapted for your project, following instructions provided within those files or in the relevant README section:
+Also ensure the following files included in the the standard [*AAFC-Bioinfo-AAC* template](https://github.com/AAFC-Bioinfo-AAC/template-repository) are completed or adapted for your project, following instructions provided within those files or in the relevant README section of the template:
 
 | File | Purpose / Notes |
 | ----- | --------------- |
-| dockstore.yml | Provides metadata for publishing analytical workflows to [Dockstore](https://dockstore.org/) — a platform for sharing tools and pipelines built with CWL, WDL, Nextflow, Snakemake, or Galaxy. <br>*\*Delete this file if Dockstore publication does not apply to your project.*|
-| CITATION.cff| Supplies citation metadata to encourage proper attribution of your software or workflow when reused by others.|
-| `LICENSE` | The default license is **MIT** — replace it if necessary. <br> *\*An internal R Shiny tool, *OSSLicensR* (internal access only), is available to help you select an appropriate license.* |
+| `dockstore.yml` | Provides metadata for publishing analytical workflows to [Dockstore](https://dockstore.org/) — a platform for sharing tools and pipelines built with CWL, WDL, Nextflow, Snakemake, or Galaxy. <br>*\*Delete this file if Dockstore publication does not apply to your project.*|
+| `CITATION.cff`| Supplies citation metadata to encourage proper attribution of your software or workflow when reused by others.|
+| `LICENSE` | The default license is **MIT** — replace it if necessary. <br> *\*An internal R Shiny tool, [*OSSLicensR*](https://websphn001.agr.gc.ca/OSSLicensR/) (internal access only), is available to help you select an appropriate license.* |
 
 #### After Publication
 
-Once your repository has passed the internal review and been published:
-
 1. **Repository visibility**  
-   - The repository will be switched from **private** to **public** within the **AAFC-Bioinfo-AAC** GitHub organization.  
    - The repository’s URL will become accessible to external users.  
    - Contributors should confirm that no sensitive information (e.g., credentials, API keys, internal endpoints) remains in the commit history or files.
 
@@ -121,7 +112,7 @@ Once your repository has passed the internal review and been published:
    - If your project will be shared on other platforms (e.g., Dockstore, Zenodo, or AAFC websites), include the GitHub link in those metadata records.
 
 4. **Maintenance and governance**  
-   - Continue to manage issues and pull requests following AAFC-Bioinfo-AAC contribution standards.  
+   - Continue to manage issues and pull requests following `AAFC-Bioinfo-AAC` contribution standards.  
    - Tag releases using [semantic versioning](https://semver.org/) (e.g., `v1.0.0`) to track changes and enable reproducibility.  
    - Keep documentation and dependencies up to date.  
    - Archive or deprecate the repository if it becomes inactive, following the [repository lifecycle guidance](./docs/aafc-bioinfo-aac-github-services-EN.md#archive-or-deprecate-a-repository).
@@ -129,6 +120,14 @@ Once your repository has passed the internal review and been published:
 > [!TIP]  
 > After publication, monitor repository insights such as **traffic**, **forks**, and **citations** to measure engagement and plan future improvements.  
 > Consider adding a **CHANGELOG.md** to document major updates over time.
+
+---
+
+## Learning resources
+
+- [Learn Git](https://git-scm.com/learn)
+- [Get started with GitHub](https://docs.github.com/en/get-started)
+- [Git tutorial by w3schools](https://www.w3schools.com/git/default.asp)
 
 ---
 
