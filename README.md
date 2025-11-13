@@ -109,7 +109,7 @@ Provide [required information](./docs/aafc-bioinfo-aac-github-services-EN.md#pub
 #### After Publication
 
 - The repository’s URL becomes publicly accessible, so verify again that no sensitive information or internal data is exposed before announcing or sharing the link.
-- Add or update GitHub topics and keywords to improve discoverability.
+- Add or update [GitHub topics and keywords](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) to improve discoverability.
 - If the project includes an application or distributable component, create a formal release.  
   - Tag each release following [semantic versioning](https://semver.org/) (e.g., v1.0.0) to clearly communicate changes and maintain a predictable versioning history.
   - Optionally provide release notes summarizing key changes, fixes, or new features to help users understand what’s included in each version.
