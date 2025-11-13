@@ -10,7 +10,6 @@
 
 - [About](#about)
 - [Getting started](#getting-started)
-  - [Set up Git and GitHub](#set-up-git-and-github)
   - [Become a member](#become-a-member)
   - [Create a new project](#create-a-new-project)
   - [Migrate an existing project](#migrate-an-existing-project)
@@ -40,12 +39,6 @@ Guidance on the information required for each type of service request can be fou
 
 ## Getting started
 
-### Set up Git and GitHub
-
-A local Git installation (request via [My IT Centre TI → Other Software Requests](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHUZDIMJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=)), a GitHub account and proper [GitHub authentication](https://docs.github.com/en/authentication) setup will be required to interact with Github through any method (e.g., using Git from the command line, GitHub CLI, IDE integrations, or GitHub Desktop) other than the web interface.
-
----
-
 ### Become a member
 
 To join the *AAFC-Bioinfo-AAC* GitHub organization, submit an IT ticket through [*My IT Centre TI → Science IT Support → AAFC Bioinformatics Code Catalogue → Account Management → Add new user*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
@@ -61,6 +54,8 @@ Include the [required information](./docs/aafc-bioinfo-aac-github-services-EN.md
 
 To start a new project, submit an IT ticket through [*My IT Centre TI → Science IT Support → AAFC Bioinformatics Code Catalogue → Repository Management → Create a new private repository*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=), providing [required information](./docs/aafc-bioinfo-aac-github-services-EN.md#create-a-new-private-repository) such as a project name ([see naming conventions](./docs/repo-naming-style-guide.md)) and project admin. A new private repository will then be created and initialized using the standard [*AAFC-Bioinfo-AAC* template](https://github.com/AAFC-Bioinfo-AAC/template-repository).
 
+New users may be added to the project directly by the project admin. However, if that user is an AAFC employee and not already a member of the org, it is best that the user submit an IT ticket to be added to the project. This will ensure that the user does not appear as an external collaborator.
+
 ---
 
 ### Migrate an existing project
@@ -71,15 +66,23 @@ Follow the process above to create a new project and the migrate your existing p
 
 ### Develop the project locally
 
-The template may be modified to suit your requirements for the new or migrated project while keeping the content in the required sections.
+Follow the steps described in this [document](./docs/developing-locally.md) to clone the project to your local machine, make changes safely, and contribute via pull requests. The template may be modified to suit your requirements for the new or migrated project while keeping the content in the required sections. Ensure no sensitive, confidential, or proprietary data are uploaded and follow [coding best practices](./docs/coding-best-practices.md).
 
-New users may be added to the project directly by the project admin. However, if that user is an AAFC employee and not already a member of the org, it is best that the user submit an IT ticket to be added to the project. This will ensure that the user does not appear as an external collaborator.
-
-Follow [coding best practices](./docs/coding-best-practices.md) and ensure no sensitive, confidential, or proprietary data should are uploaded. Some learning resources:
+Some learning resources:
 
 - [Learn Git](https://git-scm.com/learn)
 - [Get started with GitHub](https://docs.github.com/en/get-started)
 - [Git tutorial by w3schools](https://www.w3schools.com/git/default.asp)
+
+Prerequisites:
+
+- **Git** installation (request via [My IT Centre TI → Other Software Requests](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHUZDIMJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=))
+- **GitHub account** with access to the repository.
+- **Authentication** set up (HTTPS with Personal Access Token, or SSH keys). [GitHub authentication](https://docs.github.com/en/authentication) will be required to interact with Github through any method (e.g., using Git from the command line, GitHub CLI, IDE integrations, or GitHub Desktop) other than the web interface.
+- **Language runtime/tools** for this project (e.g., Python/Node/Java) and any package manager (pip/npm/maven/etc.).
+
+> [!IMPORTANT]
+> Do **not** clone/place your working copy inside OneDrive sync folders. Keep repos in a sync excluded folder within OneDrive or a folder outside of OneDrive like `C:\Users\<username>` (or your WSL home) to avoid corruption and performance issues.
 
 ---
 
