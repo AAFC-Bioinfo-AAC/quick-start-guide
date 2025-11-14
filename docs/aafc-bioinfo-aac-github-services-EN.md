@@ -7,11 +7,10 @@
 <!-- omit in toc -->
 ## About
 
-This guide describes available services and processes to manage and contribute to bioinformatics code repositories within the **AAFC-Bioinfo-AAC** GitHub organization. These services are managed via **AAFC's IT ticketing system** at
- *My IT Centre TI > Science IT Support > AAFC Bioinformatics Code Catalogue* ([internal access link](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=)).
+This guide describes available services and processes to manage and contribute to bioinformatics code repositories within the **AAFC-Bioinfo-AAC** GitHub organization. These services, categorized under 4 types of requests, are managed through AAFC’s internal IT ticketing system, accessible via [*My IT Centre TI → Science IT Support → AAFC Bioinformatics Code Catalogue*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
 
 <!-- omit in toc -->
-## Table of Contents
+## Type of Request
 
 - [Repository Management](#repository-management)
   - [Create a new private repository](#create-a-new-private-repository)

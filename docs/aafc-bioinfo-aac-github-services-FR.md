@@ -7,10 +7,10 @@
 <!-- omit in toc -->
 ## À propos
 
-Ce guide décrit les services disponibles et les processus pour gérer et contribuer aux dépôts de code bio-informatique au sein de l'organisation GitHub **AAFC-Bioinfo-AAC**. Ces services sont gérés via le **système de tickets TI de l'AAC** à *My IT Centre TI > Science IT Support > AAFC Bioinformatics Code Catalogue* ([lien d'accès interne](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=)).
+Ce guide décrit les services disponibles et les processus pour gérer et contribuer aux dépôts de code bio-informatique au sein de l'organisation GitHub **AAFC-Bioinfo-AAC**. Ces services, répartis en 4 catégories de demandes, sont gérés via le système interne de billetterie informatique d’AAC, accessible par [*My IT Centre TI → Science IT Support → AAFC Bioinformatics Code Catalogue*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
 
 <!-- omit in toc -->
-## Table des matières
+## Catégorie de Demande
 
 - [Gestion du dépôt](#gestion-du-dépôt)
   - [Créer des dépôts privés](#créer-des-dépôts-privés)
