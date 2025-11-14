@@ -122,9 +122,9 @@ Provide [required information](./docs/aafc-bioinfo-aac-github-services-EN.md#pub
 
 ## Learning resources
 
+- [Git tutorial by W3Schools](https://www.w3schools.com/git/default.asp)
 - [Learn Git](https://git-scm.com/learn)
 - [Get started with GitHub](https://docs.github.com/en/get-started)
-- [Git tutorial by w3schools](https://www.w3schools.com/git/default.asp)
 
 ---
 
