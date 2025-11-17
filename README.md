@@ -130,7 +130,7 @@ Provide [required information](./docs/aafc-bioinfo-aac-github-services-EN.md#pub
 
 ## Acknowledgements
 
-This guide was developed by the **ABCC project team**.
+This guide was developed by the `AAFC Bioinformatics Code Catalogue (ABCC)` project team.
 
 🤖 This project includes content generated with the assistance of AI models. All AI-generated material has been reviewed, verified, and, where necessary, refined by the project team to ensure accuracy.
 
