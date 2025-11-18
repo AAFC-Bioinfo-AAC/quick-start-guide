@@ -85,7 +85,7 @@ Follow the process above to create a new repository, and then migrate your exist
 - Ensure no sensitive, confidential, or proprietary data is ever committed or pushed to the remote repository. Properly configure the `.gitignore` file to exclude those files from being tracked.
 
 > [!IMPORTANT]
-> **Do not** clone or store your working copy inside a folder synchronized by any cloud-storage service (e.g., OneDrive, Dropbox, Google Drive, iCloud, etc.). To prevent file corruption and performance issues, always keep your repositories in a non-synced location — for example, a local folder under C:\Users\<username> or within WSL (/home/\<username>).
+> **Do not** clone or store your working copy inside a folder synchronized by any cloud-storage service (e.g., OneDrive, Dropbox, Google Drive, iCloud, etc.). To prevent file corruption and performance issues, always keep your repositories in a non-synced location — for example, a local folder under `C:\Users\<username>` or within WSL (`/home/\<username>`).
 
 ---
 
@@ -124,7 +124,7 @@ Provide [required information](./docs/aafc-bioinfo-aac-github-services-EN.md#pub
 
 - [Git tutorial by W3Schools](https://www.w3schools.com/git/default.asp)
 - [Learn Git](https://git-scm.com/learn)
-- [Get started with GitHub](https://docs.github.com/en/get-started)
+- [Get started with GitHub documentation](https://docs.github.com/en/get-started)
 
 ---
 
