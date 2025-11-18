@@ -48,7 +48,7 @@ Guidance on the information required for each type of service request can be fou
 - GitHub authentication: Interacting with Github through any method other than the web interface (e.g., using Git from the command line, GitHub CLI, IDE integrations, or GitHub Desktop) requires [account authentication](https://docs.github.com/en/authentication).
 
 > [!TIP]
-> If your existing GitHub account is primarily used for personal projects, consider creating a separate professional one for official work (e.g., `firstname-lastname-aafc`). According to the [Guide for Publishing Open Source Code](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html#:~:text=of%20your%20code.-,Identify%20as%20an%20employee%20of%20the%20Government%20of%20Canada,-Employees%20should%20use) employees should use their full name and Government of Canada email address for all code contributions to public repositories while acting within the scope of their duties or employment.
+> If your existing GitHub account is primarily used for personal projects, consider creating a separate professional one for official work (e.g., `firstname-lastname-aafc`). According to the [Guide for Publishing Open Source Code](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html#:~:text=Identify%20as%20an%20employee%20of%20the%20Government%20of%20Canada,-Employees%20should%20use) employees should use their full name and Government of Canada email address for all code contributions to public repositories while acting within the scope of their duties or employment.
 
 ---
 
