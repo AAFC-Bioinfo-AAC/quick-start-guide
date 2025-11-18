@@ -43,7 +43,7 @@ Des indications sur les renseignements requis pour chaque type de demande se tro
 
 ### Prérequis
 
-- Installation de Git: faire une demande dans [*Mon Centre TI → Demandes d'autres logiciels*]().
+- Installation de Git: faire une demande dans [*Mon Centre TI → Demandes d'autres logiciels*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHUZDIMJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
 - Compte GitHub: si vous n'en avez pas déjà un, [créez-en un](https://github.com/signup).
 - [Authentification GitHub](https://docs.github.com/en/authentication): nécessaire pour toute interaction autre que l'interface Web.
 
