@@ -122,7 +122,7 @@ Lorsque votre projet est prêt à devenir public, soumettez une demande via [*Mo
 
 ## Ressources d'apprentissage
 
-- [Tutoriel Git de W3Schools]((https://www.w3schools.com/git/default.asp))
+- [Tutoriel Git de W3Schools](https://www.w3schools.com/git/default.asp)
 - [Apprendre Git](https://git-scm.com/learn)
 - [Bien démarrer avec la documentation GitHub](https://docs.github.com/fr/get-started)
 
