@@ -47,7 +47,7 @@ Des indications sur les renseignements requis pour chaque type de demande se tro
 - Compte GitHub: si vous n'en avez pas déjà un, [créez-en un](https://github.com/signup).
 - [Authentification GitHub](https://docs.github.com/fr/authentication): nécessaire pour toute interaction autre que l'interface Web.
 
-> [!CONSEIL]
+> [!TIP]
 > Si votre compte GitHub est principalement utilisé pour des projets personnels, envisagez d'en créer un destiné au travail (ex. `prenom-nom-aafc`). Selon le [*Guide pour la publication du code source libre*](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/logiciels-libres/guide-pour-la-publication-du-code-source-libre.html#:~:text=S%E2%80%99identifier%20en%20tant%20qu%E2%80%99employ%C3%A9%20du%20gouvernement%20du%20Canada), les employés doivent utiliser leur nom complet et leur adresse courriel du gouvernement du Canada pour tout code publié dans le cadre de leurs fonctions.
 
 ---
