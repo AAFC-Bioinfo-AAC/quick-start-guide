@@ -43,18 +43,18 @@ Des indications sur les renseignements requis pour chaque type de demande se tro
 
 ### Prérequis
 
-- Installation de Git: faire une demande dans [*Mon Centre TI → Demandes d'autres logiciels*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHUZDIMJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
+- Installation de Git: faire une demande dans [*Mon Centre TI → Demande d'autre logiciel*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHUZDIMJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
 - Compte GitHub: si vous n'en avez pas déjà un, [créez-en un](https://github.com/signup).
-- [Authentification GitHub](https://docs.github.com/en/authentication): nécessaire pour toute interaction autre que l'interface Web.
+- [Authentification GitHub](https://docs.github.com/fr/authentication): nécessaire pour toute interaction autre que l'interface Web.
 
-> [!TIP]
+> [!CONSEIL]
 > Si votre compte GitHub est principalement utilisé pour des projets personnels, envisagez d'en créer un destiné au travail (ex. `prenom-nom-aafc`). Selon le [*Guide pour la publication du code source libre*](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/logiciels-libres/guide-pour-la-publication-du-code-source-libre.html#:~:text=S%E2%80%99identifier%20en%20tant%20qu%E2%80%99employ%C3%A9%20du%20gouvernement%20du%20Canada), les employés doivent utiliser leur nom complet et leur adresse courriel du gouvernement du Canada pour tout code publié dans le cadre de leurs fonctions.
 
 ---
 
 ### Devenir membre
 
-Pour rejoindre l'organisation *AAFC‑Bioinfo‑AAC*, soumettez un billet TI via [*Mon Centre TI → Soutien TI scientifique → Catalogue de code bioinformatique d'AAC → Gestion des comptes → Ajouter un nouvel utilisateur*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
+Pour rejoindre l'organisation *AAFC‑Bioinfo‑AAC*, soumettez un billet TI via [*Mon Centre TI → Support informatique scientifique → AAFC Bioinformatics Code Catalogue (ABCC) → Gestion des comptes → Ajouter de nouveaux utilisateurs*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
 
 Fournissez les [renseignements requis](./docs/aafc-bioinfo-aac-github-services-FR.md#ajout-de-nouveaux-utilisateurs), notamment votre nom d'utilisateur GitHub et les dépôts auxquels vous avez besoin d'accéder. Une invitation vous sera envoyée une fois la demande approuvée.
 
@@ -62,7 +62,7 @@ Fournissez les [renseignements requis](./docs/aafc-bioinfo-aac-github-services-F
 
 ### Créer un nouveau dépôt GitHub
 
-Pour démarrer un nouveau projet, soumettez un billet TI via [*Mon Centre TI → Soutien TI scientifique → Catalogue de code bioinformatique d'AAC → Gestion des dépôts → Créer un nouveau dépôt privé*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
+Pour démarrer un nouveau projet, soumettez un billet TI via [*Mon Centre TI → Support informatique scientifique → AAFC Bioinformatics Code Catalogue (ABCC) → Gestion des dépôts → Créer un nouveau dépôt privé*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
 
 Indiquez les [renseignements requis](./docs/aafc-bioinfo-aac-github-services-FR.md#ajout-de-nouveaux-utilisateurs), y compris le nom du dépôt ([voir les conventions de nommage](./docs/repo-naming-style-guide.md)) et l'administrateur responsable. Le dépôt sera créé à partir du [modèle standard *AAFC‑Bioinfo‑AAC*](https://github.com/AAFC-Bioinfo-AAC/template-repository/blob/main/README_FR.md), que vous pouvez modifier au besoin tout en conservant les sections obligatoires.
 
@@ -72,7 +72,7 @@ L'administrateur du dépôt peut ajouter directement des utilisateurs. Toutefois
 
 ### Migrer un dépôt existant
 
-Créez un nouveau dépôt selon le processus ci‑dessus, puis migrez-y votre projet vous‑même ou en soumettant un billet TI: [*My IT Centre TI → Science IT Support → AAFC Bioinformatics Code Catalogue → Other*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
+Créez un nouveau dépôt selon le processus ci‑dessus, puis migrez-y votre projet vous‑même ou en soumettant un billet TI: [*Mon Centre TI → Support informatique scientifique → AAFC Bioinformatics Code Catalogue (ABCC) → Autre*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
 
 ---
 
@@ -91,7 +91,7 @@ Créez un nouveau dépôt selon le processus ci‑dessus, puis migrez-y votre pr
 
 ### Publier un projet
 
-Lorsque votre projet est prêt à devenir public, soumettez une demande via [*Mon Centre TI → Soutien TI scientifique → Catalogue de code bioinformatique d'AAC → Gestion des dépôts → Publier un dépôt*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
+Lorsque votre projet est prêt à devenir public, soumettez une demande via [*Mon Centre TI → Support informatique scientifique → AAFC Bioinformatics Code Catalogue (ABCC) → Gestion des dépôts → Publier un dépôt*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
 
 [Fournissez les renseignements requis](./docs/aafc-bioinfo-aac-github-services-FR.md#publier-un-dépôt-rendre-public) et joignez un dûment rempli [Formulaire d’approbation pour le développement ou la publication de code source ouvert](https://001gc.sharepoint.com/:w:/r/sites/50055/pap1/Open%20Source%20Software/STB%20Formulaire%20d%E2%80%99approbation%20pour%20le%20code%20source%20ouvert%20-%20FR.docx) (accès interne). Le dépôt fera l’objet d’un processus interne d’examen de sécurité et, une fois approuvé, il sera rendu public.
 
@@ -102,16 +102,16 @@ Lorsque votre projet est prêt à devenir public, soumettez une demande via [*Mo
 
 | Fichier | Rôle / Notes |
 | ------- | ------------- |
-| `dockstore.yml` | Fournit les métadonnées nécessaires pour publier des flux de travail analytiques sur [Dockstore](https://dockstore.org/) — une plateforme de partage d’outils et de pipelines développés avec CWL, WDL, Nextflow, Snakemake ou Galaxy. <br>*\*Supprimez ce fichier si la publication sur Dockstore ne s’applique pas à votre projet.* |
-| `CITATION.cff` | Fournit les métadonnées de citation afin d’encourager l’attribution appropriée de votre logiciel ou flux de travail lorsqu’il est réutilisé par d’autres. |
+| `dockstore.yml` | Fournis les métadonnées nécessaires pour publier des flux de travail analytiques sur [Dockstore](https://dockstore.org/) — une plateforme de partage d’outils et de pipelines développés avec CWL, WDL, Nextflow, Snakemake ou Galaxy. <br>*\*Supprimez ce fichier si la publication sur Dockstore ne s’applique pas à votre projet.* |
+| `CITATION.cff` | Fournis les métadonnées de citation afin d’encourager l’attribution appropriée de votre logiciel ou flux de travail lorsqu’il est réutilisé par d’autres. |
 | `LICENSE` | La licence par défaut est **MIT** — remplacez-la si nécessaire. <br>*\*Un outil interne R Shiny, [*OSSLicensR*](https://websphn001.agr.gc.ca/OSSLicensR/) (accès interne uniquement), est disponible pour vous aider à sélectionner une licence appropriée.* |
 
 #### Après la publication
 
 - L’URL du dépôt devient accessible publiquement; vérifiez de nouveau qu’aucune information sensible ou donnée interne n’est exposée avant d’annoncer ou de partager le lien.
-- Ajoutez ou mettez à jour les [topics et mots-clés GitHub](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) afin d’améliorer la découvrabilité.
+- Ajoutez ou mettez à jour les [rubriques et mots-clés GitHub](https://docs.github.com/fr/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) afin d’améliorer la découvrabilité.
 - Si le projet comprend une application ou un composant distribuable, créez une version officielle (*release*).
-  - Identifiez chaque version à l’aide du schéma de [versionnage sémantique](https://semver.org/) (p. ex., `v1.0.0`) afin de communiquer clairement les changements et de maintenir un historique prévisible des versions.
+  - Identifiez chaque version à l’aide du schéma de [Gestion sémantique de version](https://semver.org/lang/fr/) (p. ex., `v1.0.0`) afin de communiquer clairement les changements et de maintenir un historique prévisible des versions.
   - Fournissez éventuellement des notes de version résumant les principaux changements, correctifs ou nouvelles fonctionnalités pour aider les utilisateurs à comprendre ce que contient chaque version.
 - Maintenez à jour les métadonnées, la documentation et les dépendances.
 - Poursuivez la gouvernance : gérez les *issues* et *pull requests* conformément aux normes de contribution `AAFC-Bioinfo-AAC`.
@@ -138,7 +138,7 @@ Ce guide a été élaboré par l’équipe du projet `Répertoire de Codes Bioin
 
 ## Contribution
 
-Les contributions sont les bienvenues ! Veuillez consulter les lignes directrices dans [CONTRIBUTING.md](CONTRIBUTING.md) et vous assurer de respecter notre [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) afin de favoriser un environnement respectueux et inclusif.
+Les contributions sont les bienvenues! Veuillez consulter les lignes directrices dans [CONTRIBUTING.md](CONTRIBUTING.md) et vous assurer de respecter notre [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) afin de favoriser un environnement respectueux et inclusif.
 
 ---
 
