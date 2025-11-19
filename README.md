@@ -104,7 +104,7 @@ Provide [required information](./docs/aafc-bioinfo-aac-github-services-EN.md#pub
 | ----- | --------------- |
 | `dockstore.yml` | Provides metadata for publishing analytical workflows to [Dockstore](https://dockstore.org/) — a platform for sharing tools and pipelines built with CWL, WDL, Nextflow, Snakemake, or Galaxy. <br>*\*Delete this file if Dockstore publication does not apply to your project.*|
 | `CITATION.cff`| Supplies citation metadata to encourage proper attribution of your software or workflow when reused by others.|
-| `LICENSE` | The default license is **MIT** — replace it if necessary. <br> *\*An internal R Shiny tool, [*OSSLicensR*](https://websphn001.agr.gc.ca/OSSLicensR/) (internal access only), is available to help you select an appropriate license.* |
+| `LICENSE` | The default license is **MIT** — replace it if necessary. <br> *\*An R Shiny tool, [*OSSLicensR*](https://websphn001.agr.gc.ca/OSSLicensR/), is available (internal access only) to guide selection of an appropriate license.* |
 
 #### After Publication
 
