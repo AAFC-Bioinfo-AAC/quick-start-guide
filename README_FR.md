@@ -93,7 +93,7 @@ Créez un nouveau dépôt selon le processus ci‑dessus, puis migrez-y votre pr
 
 Lorsque votre projet est prêt à devenir public, soumettez une demande via [*Mon Centre TI → Support informatique scientifique → AAFC Bioinformatics Code Catalogue (ABCC) → Gestion des dépôts → Publier un dépôt*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
 
-[Fournissez les renseignements requis](./docs/aafc-bioinfo-aac-github-services-FR.md#publier-un-dépôt-rendre-public) et joignez un dûment rempli [Formulaire d’approbation pour le développement ou la publication de code source ouvert](https://001gc.sharepoint.com/:w:/r/sites/50055/pap1/Open%20Source%20Software/STB%20Formulaire%20d%E2%80%99approbation%20pour%20le%20code%20source%20ouvert%20-%20FR.docx) (accès interne). Le dépôt fera l’objet d’un processus interne d’examen de sécurité et, une fois approuvé, il sera rendu public.
+[Fournissez les renseignements requis](./docs/aafc-bioinfo-aac-github-services-FR.md#publier-un-dépôt-rendre-public) et joignez un dûment rempli [Formulaire d’approbation pour le développement ou la publication de code source ouvert](https://001gc.sharepoint.com/:b:/r/sites/50055/pap1/Open%20Source%20Software/STB%20Formulaire%20d%E2%80%99approbation%20pour%20le%20code%20source%20ouvert%20-%20FR.pdf) (accès interne). Le dépôt fera l’objet d’un processus interne d’examen de sécurité et, une fois approuvé, il sera rendu public.
 
 #### Avant de demander la publication
 

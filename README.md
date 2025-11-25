@@ -93,7 +93,7 @@ Follow the process above to create a new repository, and then migrate your exist
 
 When your project is ready to be made public, submit an IT ticket via [*My IT Centre TI → Science IT Support → AAFC Bioinformatics Code Catalogue → Repository Management → Publish a repository*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
 
-Provide [required information](./docs/aafc-bioinfo-aac-github-services-EN.md#publish-a-repository-make-public) and attach a completed [*Open-Source Development or Publication Approval Form*](https://001gc.sharepoint.com/:w:/r/sites/50055/pap1/Open%20Source%20Software/STB%20Open%20source%20code%20approval%20form%20-%20EN.docx) (internal access). The repository will undergo an internal security review process, and upon clearance, will be made public.
+Provide [required information](./docs/aafc-bioinfo-aac-github-services-EN.md#publish-a-repository-make-public) and attach a completed [*Open-Source Development or Publication Approval Form*](https://001gc.sharepoint.com/:b:/r/sites/50055/pap1/Open%20Source%20Software/STB%20Open%20source%20code%20approval%20form%20-%20EN.pdf) (internal access). The repository will undergo an internal security review process, and upon clearance, will be made public.
 
 #### Before requesting publication
 
