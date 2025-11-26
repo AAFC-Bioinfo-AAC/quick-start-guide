@@ -55,7 +55,7 @@ Pour demander qu’un dépôt devienne public, cliquez sur **Publier un dépôt*
 
 - Le nom du dépôt
 - Le nom de l’administrateur du dépôt, son courriel officiel, son nom d’utilisateur GitHub et le courriel de la personne superviseure
-- Un **Formulaire d’approbation pour le développement ou la publication de source ouverte** (lien fourni dans le billet), signé par le directeur de votre Centre  
+- Un **Formulaire d’approbation pour le développement ou la publication de source ouverte** (lien fourni dans le billet), signé par le Directeur associé de votre Centre  
   *(Téléchargez le formulaire PDF remplissable à partir du lien fourni dans le billet)*
 
 Après un examen de sécurité réussi et l’approbation du directeur de l’ISB, le dépôt sera publié.
