@@ -17,6 +17,7 @@
   - [Develop the project](#develop-the-project)
   - [Publish a project](#publish-a-project)
     - [Before requesting publication](#before-requesting-publication)
+      - [Form Completion Instructions](#form-completion-instructions)
     - [Requesting Publication](#requesting-publication)
     - [After Publication](#after-publication)
 - [Learning resources](#learning-resources)
@@ -100,6 +101,12 @@ Follow the process above to create a new repository, and then migrate your exist
   - `LICENSE`: The default license is **MIT** — replace it if necessary. An R Shiny tool, [*OSSLicensR*](https://websphn001.agr.gc.ca/OSSLicensR/), is available (internal access only) to guide selection of an appropriate license.
   - `CITATION.cff`: Supplies citation metadata to encourage proper attribution of your software or workflow when reused by others.
   - `dockstore.yml`: Provides metadata for publishing analytical workflows to [Dockstore](https://dockstore.org/) — a platform for sharing tools and pipelines built with CWL, WDL, Nextflow, Snakemake, or Galaxy. ***Delete this file if Dockstore publication does not apply to your project.***
+  
+- Complete the *Open-Source Development or Publication Approval Form* (refer [Form Completion Instructions](#form-completion-instructions)).
+
+##### Form Completion Instructions
+
+The project/repository maintainer should complete sections A and B of the *Open-Source Development or Publication Approval Form* ([internal access link](https://001gc.sharepoint.com/:b:/r/sites/50055/pap1/Open%20Source%20Software/STB%20Open%20source%20code%20approval%20form%20-%20EN.pdf)) and get it signed by the Associate Director of their Centre.
 
 #### Requesting Publication
 
