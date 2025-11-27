@@ -17,6 +17,7 @@
   - [Develop the project](#develop-the-project)
   - [Publish a project](#publish-a-project)
     - [Before requesting publication](#before-requesting-publication)
+    - [Requesting Publication](#requesting-publication)
     - [After Publication](#after-publication)
 - [Learning resources](#learning-resources)
 - [Acknowledgements](#acknowledgements)
@@ -91,20 +92,22 @@ Follow the process above to create a new repository, and then migrate your exist
 
 ### Publish a project
 
-When your project is ready to be made public, submit an IT ticket via [*My IT Centre TI → Science IT Support → AAFC Bioinformatics Code Catalogue → Repository Management → Publish a repository*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
-
-Provide [required information](./docs/aafc-bioinfo-aac-github-services-EN.md#publish-a-repository-make-public) and attach a completed [*Open-Source Development or Publication Approval Form*](https://001gc.sharepoint.com/:b:/r/sites/50055/pap1/Open%20Source%20Software/STB%20Open%20source%20code%20approval%20form%20-%20EN.pdf) (internal access) signed by the Associate Director of your Centre. The repository will undergo an internal security review process, and upon clearance, will be made public.
-
 #### Before requesting publication
 
 - Review and update your `README.md` and project documentation to ensure they accurately reflect the current state and purpose of your project.
+  
 - Ensure the following files (from the standard [*AAFC-Bioinfo-AAC* template](https://github.com/AAFC-Bioinfo-AAC/template-repository)) are completed or adapted to your project, following instructions provided within those files or in the relevant README section of the template:
+  - `LICENSE`: The default license is **MIT** — replace it if necessary. An R Shiny tool, [*OSSLicensR*](https://websphn001.agr.gc.ca/OSSLicensR/), is available (internal access only) to guide selection of an appropriate license.
+  - `CITATION.cff`: Supplies citation metadata to encourage proper attribution of your software or workflow when reused by others.
+  - `dockstore.yml`: Provides metadata for publishing analytical workflows to [Dockstore](https://dockstore.org/) — a platform for sharing tools and pipelines built with CWL, WDL, Nextflow, Snakemake, or Galaxy. ***Delete this file if Dockstore publication does not apply to your project.***
 
-| File | Purpose / Notes |
-| ----- | --------------- |
-| `dockstore.yml` | Provides metadata for publishing analytical workflows to [Dockstore](https://dockstore.org/) — a platform for sharing tools and pipelines built with CWL, WDL, Nextflow, Snakemake, or Galaxy. <br>*\*Delete this file if Dockstore publication does not apply to your project.*|
-| `CITATION.cff`| Supplies citation metadata to encourage proper attribution of your software or workflow when reused by others.|
-| `LICENSE` | The default license is **MIT** — replace it if necessary. <br> *\*An R Shiny tool, [*OSSLicensR*](https://websphn001.agr.gc.ca/OSSLicensR/), is available (internal access only) to guide selection of an appropriate license.* |
+#### Requesting Publication
+
+When your project is ready to be made public, submit an IT ticket via [*My IT Centre TI → Science IT Support → AAFC Bioinformatics Code Catalogue → Repository Management → Publish a repository*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
+
+Provide [required information](./docs/aafc-bioinfo-aac-github-services-EN.md#publish-a-repository-make-public) and attach the completed *Open-Source Development or Publication Approval Form* (refer [Form Completion Instructions](#form-completion-instructions)).
+
+After a successful security review and ISB Director approval, the repository will be published.
 
 #### After Publication
 
