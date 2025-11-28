@@ -17,6 +17,8 @@
   - [Développer le projet](#développer-le-projet)
   - [Publier un projet](#publier-un-projet)
     - [Avant de demander la publication](#avant-de-demander-la-publication)
+      - [Instructions pour remplir le formulaire](#instructions-pour-remplir-le-formulaire)
+    - [Demander la publication](#demander-la-publication)
     - [Après la publication](#après-la-publication)
 - [Ressources d'apprentissage](#ressources-dapprentissage)
 - [Remerciements](#remerciements)
@@ -91,20 +93,27 @@ Créez un nouveau dépôt selon le processus ci‑dessus, puis migrez-y votre pr
 
 ### Publier un projet
 
-Lorsque votre projet est prêt à devenir public, soumettez une demande via [*Mon Centre TI → Support informatique scientifique → AAFC Bioinformatics Code Catalogue (ABCC) → Gestion des dépôts → Publier un dépôt*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
-
-[Fournissez les renseignements requis](./docs/aafc-bioinfo-aac-github-services-FR.md#publier-un-dépôt-rendre-public) et joignez un dûment rempli [Formulaire d’approbation pour le développement ou la publication de code source ouvert](https://001gc.sharepoint.com/:b:/r/sites/50055/pap1/Open%20Source%20Software/STB%20Formulaire%20d%E2%80%99approbation%20pour%20le%20code%20source%20ouvert%20-%20FR.pdf) (accès interne) signé par le Directeur associé de votre Centre. Le dépôt fera l’objet d’un processus interne d’examen de sécurité et, une fois approuvé, il sera rendu public.
-
 #### Avant de demander la publication
 
 - Passez en revue et mettez à jour votre fichier `README.md` ainsi que la documentation du projet afin de vous assurer qu’ils reflètent fidèlement l’état actuel et l’objectif de votre projet.
 - Assurez-vous que les fichiers suivants (provenant du modèle standard [*AAFC-Bioinfo-AAC*](https://github.com/AAFC-Bioinfo-AAC/template-repository/blob/main/README_FR.md)) sont complétés ou adaptés à votre projet, en suivant les instructions fournies dans ces fichiers ou dans la section correspondante du README du modèle :
+  - `LICENSE`: La licence par défaut est **MIT** — remplacez-la si nécessaire. Un outil interne R Shiny, [*OSSLicensR*](https://websphn001.agr.gc.ca/OSSLicensR/) (accès interne uniquement), est disponible pour vous aider à sélectionner une licence appropriée.
+  - `CITATION.cff`: Fournis les métadonnées de citation afin d’encourager l’attribution appropriée de votre logiciel ou flux de travail lorsqu’il est réutilisé par d’autres.
+  - `dockstore.yml`: Fournis les métadonnées nécessaires pour publier des flux de travail analytiques sur [Dockstore](https://dockstore.org/) — une plateforme de partage d’outils et de pipelines développés avec CWL, WDL, Nextflow, Snakemake ou Galaxy. ***Supprimez ce fichier si la publication sur Dockstore ne s’applique pas à votre projet.***
 
-| Fichier | Rôle / Notes |
-| ------- | ------------- |
-| `dockstore.yml` | Fournis les métadonnées nécessaires pour publier des flux de travail analytiques sur [Dockstore](https://dockstore.org/) — une plateforme de partage d’outils et de pipelines développés avec CWL, WDL, Nextflow, Snakemake ou Galaxy. <br>*\*Supprimez ce fichier si la publication sur Dockstore ne s’applique pas à votre projet.* |
-| `CITATION.cff` | Fournis les métadonnées de citation afin d’encourager l’attribution appropriée de votre logiciel ou flux de travail lorsqu’il est réutilisé par d’autres. |
-| `LICENSE` | La licence par défaut est **MIT** — remplacez-la si nécessaire. <br>*\*Un outil interne R Shiny, [*OSSLicensR*](https://websphn001.agr.gc.ca/OSSLicensR/) (accès interne uniquement), est disponible pour vous aider à sélectionner une licence appropriée.* |
+- Remplissez le *Formulaire d’approbation pour le développement ou la publication de code source ouvert* (voir [Instructions pour remplir le formulaire](#instructions-pour-remplir-le-formulaire)).
+
+##### Instructions pour remplir le formulaire
+
+Le responsable du projet/dépôt doit remplir les sections A et B du Formulaire d’approbation pour le développement ou la publication de code source ouvert ([lien interne](https://001gc.sharepoint.com/:b:/r/sites/50055/pap1/Open%20Source%20Software/STB%20Open%20source%20code%20approval%20form%20-%20EN.pdf)) et le faire signer par le directeur délégué de son centre.
+
+#### Demander la publication
+
+Lorsque votre projet est prêt à devenir public, soumettez une demande via [*Mon Centre TI → Support informatique scientifique → AAFC Bioinformatics Code Catalogue (ABCC) → Gestion des dépôts → Publier un dépôt*](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHU2TANJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=).
+
+[Fournissez les renseignements requis](./docs/aafc-bioinfo-aac-github-services-FR.md#publier-un-dépôt-rendre-public) et joignez le *Formulaire d’approbation pour le développement ou la publication de code source ouvert* dûment rempli (voir [Instructions pour remplir le formulaire](#instructions-pour-remplir-le-formulaire)).
+
+Après un examen de sécurité réussi et l’approbation du directeur de l’ISB, le dépôt sera publié.
 
 #### Après la publication
 
