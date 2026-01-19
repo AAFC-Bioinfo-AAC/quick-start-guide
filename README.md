@@ -45,7 +45,7 @@ Guidance on the information required for each type of service request can be fou
 
 ### Prerequisites
 
-- Git installation: request via [My IT Centre TI → Other Software Requests](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHUZDIMJGMNXW45DFPB2FI6LQMU6UGQKUIFGE6R27JBHU2RI=)
+- Git installation: request via [My IT Centre TI → Other Software Requests](https://aafcaac-dwp.ca.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUKWKKHA4EUNKUJBBUCU2KJNAVASSTJJFUCUCKJM4TKWRGOJSXG33VOJRWKSLEHUYTCMJTEZRW63TUMV4HIVDZOBST2Q2BKRAUYT2HL5EE6TKF)
 - GitHub account: If you don’t already have one, [create an account](https://github.com/signup).
 - GitHub authentication: Interacting with Github through any method other than the web interface (e.g., using Git from the command line, GitHub CLI, IDE integrations, or GitHub Desktop) requires [account authentication](https://docs.github.com/en/authentication).
 
