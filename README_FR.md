@@ -105,7 +105,7 @@ Créez un nouveau dépôt selon le processus ci‑dessus, puis migrez-y votre pr
 
 ##### Instructions pour remplir le formulaire
 
-Le responsable du projet/dépôt doit remplir les sections A et B du Formulaire d’approbation pour le développement ou la publication de code source ouvert ([lien interne](https://001gc.sharepoint.com/:b:/r/sites/50055/pap1/Open%20Source%20Software/STB%20Open%20source%20code%20approval%20form%20-%20EN.pdf)) et le faire signer par le directeur délégué de son centre.
+Le responsable du projet/dépôt doit remplir les sections A et B du Formulaire d’approbation pour le développement ou la publication de code source ouvert ([lien interne](https://001gc.sharepoint.com/:b:/r/sites/50055/pap1/Open%20Source%20Software/STB%20Formulaire%20d%E2%80%99approbation%20pour%20le%20code%20source%20ouvert-FR-10Feb26.pdf)) et le faire signer par le directeur délégué de son centre.
 
 #### Demander la publication
 
