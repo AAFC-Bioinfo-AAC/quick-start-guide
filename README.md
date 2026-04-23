@@ -106,7 +106,7 @@ Follow the process above to create a new repository, and then migrate your exist
 
 ##### Form Completion Instructions
 
-The project/repository maintainer should complete sections A and B of the *Open-Source Development or Publication Approval Form* ([internal access link](https://001gc.sharepoint.com/sites/34851/asd1/A9702-E.pdf?web=1) and get it signed by the Associate Director of their Centre.
+The project/repository maintainer should complete sections A and B of the *Open-Source Development or Publication Approval Form* ([internal access link](https://001gc.sharepoint.com/sites/34851/asd1/A9702-E.pdf)) and get it signed by the Associate Director of their Centre.
 
 #### Requesting Publication
 
