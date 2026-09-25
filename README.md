@@ -101,6 +101,8 @@ Follow the process above to create a new repository, and then migrate your exist
   - `LICENSE`: The default license is **MIT** — replace it if necessary. An R Shiny tool, [*OSSLicensR*](https://websphn001.agr.gc.ca/OSSLicensR/), is available (internal access only) to guide selection of an appropriate license.
   - `CITATION.cff`: Supplies citation metadata to encourage proper attribution of your software or workflow when reused by others.
   - `dockstore.yml`: Provides metadata for publishing analytical workflows to [Dockstore](https://dockstore.org/) — a platform for sharing tools and pipelines built with CWL, WDL, Nextflow, Snakemake, or Galaxy. ***Delete this file if Dockstore publication does not apply to your project.***
+
+- Follow [guidance on disclosure of AI-assisted development](docs/AI_assisted_development_guidance.md). The guide includes the recommended disclosure statement, human-responsibility principles, good practices, and a publication checklist.
   
 - Complete the *Open-Source Development or Publication Approval Form* (refer [Form Completion Instructions](#form-completion-instructions)).
 
